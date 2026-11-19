@@ -1,0 +1,25 @@
+[project]
+name = "compass"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+  "anthropic",
+  "pydantic>=2",
+  "requests",
+  "pyyaml",
+  "python-dotenv",
+  "google-api-python-client",
+  "google-auth-oauthlib",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.scripts]
+compass = "compass.cli:main"
+
+[tool.setuptools]
+packages = ["compass", "compass.connectors", "compass.engine", "compass.agents", "compass.outputs"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

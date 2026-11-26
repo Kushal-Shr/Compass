@@ -1,0 +1,260 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1310" viewBox="0 0 1600 1310" role="img" aria-label="Compass system design">
+<title>Compass system design</title>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="10" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#334155"/></marker>
+<marker id="open" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto"><path d="M1,1 L11,6 L1,11" fill="none" stroke="#334155" stroke-width="1.4"/></marker>
+<marker id="tri" viewBox="0 0 16 16" refX="15" refY="8" markerWidth="16" markerHeight="16" markerUnits="userSpaceOnUse" orient="auto"><path d="M1,1 L15,8 L1,15 z" fill="#FFFFFF" stroke="#334155" stroke-width="1.4"/></marker>
+<marker id="dia" viewBox="0 0 20 12" refX="19" refY="6" markerWidth="20" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto"><path d="M1,6 L10,1 L19,6 L10,11 z" fill="#FFFFFF" stroke="#334155" stroke-width="1.4"/></marker>
+<marker id="diaf" viewBox="0 0 20 12" refX="19" refY="6" markerWidth="20" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto"><path d="M1,6 L10,1 L19,6 L10,11 z" fill="#334155" stroke="#334155" stroke-width="1.4"/></marker>
+</defs>
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<text xml:space="preserve" x="40.0" y="52.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#0F172A" text-anchor="start">Compass · system design</text>
+<text xml:space="preserve" x="40.0" y="80.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#64748B" text-anchor="start">Components, data flow and boundaries across phases 1–9. Dashed borders arrive in phase 4 or later.</text>
+<text xml:space="preserve" x="40.0" y="124.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#64748B" text-anchor="start" letter-spacing="1.1">DATA SOURCES · READ-ONLY</text>
+<rect x="40.0" y="136.0" width="220.0" height="64.0" rx="10" fill="#F8FAFC" stroke="#64748B" stroke-width="1.5"/>
+<text xml:space="preserve" x="54.0" y="162.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">Canvas LMS</text>
+<rect x="211.6" y="147.0" width="38.4" height="18.0" rx="9" fill="#FFFFFF" stroke="#64748B" stroke-width="1"/>
+<text xml:space="preserve" x="230.8" y="159.6" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#64748B" text-anchor="middle">ph 1</text>
+<text xml:space="preserve" x="54.0" y="183.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155" text-anchor="start">REST API · personal token</text>
+<path d="M260.0,168.0 L285.0,168.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round"/>
+<rect x="40.0" y="214.0" width="220.0" height="64.0" rx="10" fill="#F8FAFC" stroke="#64748B" stroke-width="1.5"/>
+<text xml:space="preserve" x="54.0" y="240.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">Google Calendar</text>
+<rect x="211.6" y="225.0" width="38.4" height="18.0" rx="9" fill="#FFFFFF" stroke="#64748B" stroke-width="1"/>
+<text xml:space="preserve" x="230.8" y="237.6" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#64748B" text-anchor="middle">ph 1</text>
+<text xml:space="preserve" x="54.0" y="261.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155" text-anchor="start">OAuth · calendar.readonly</text>
+<path d="M260.0,246.0 L285.0,246.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round"/>
+<rect x="40.0" y="292.0" width="220.0" height="64.0" rx="10" fill="#F8FAFC" stroke="#64748B" stroke-width="1.5"/>
+<text xml:space="preserve" x="54.0" y="318.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">Internship boards</text>
+<rect x="211.6" y="303.0" width="38.4" height="18.0" rx="9" fill="#FFFFFF" stroke="#64748B" stroke-width="1"/>
+<text xml:space="preserve" x="230.8" y="315.6" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#64748B" text-anchor="middle">ph 2</text>
+<text xml:space="preserve" x="54.0" y="339.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155" text-anchor="start">GitHub · Greenhouse · Lever</text>
+<path d="M260.0,324.0 L285.0,324.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round"/>
+<rect x="40.0" y="370.0" width="220.0" height="64.0" rx="10" fill="#F8FAFC" stroke="#64748B" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text xml:space="preserve" x="54.0" y="396.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">Google Jobs · web</text>
+<rect x="211.6" y="381.0" width="38.4" height="18.0" rx="9" fill="#FFFFFF" stroke="#64748B" stroke-width="1"/>
+<text xml:space="preserve" x="230.8" y="393.6" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#64748B" text-anchor="middle">ph 4</text>
+<text xml:space="preserve" x="54.0" y="417.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155" text-anchor="start">search API · web search</text>
+<path d="M260.0,402.0 L285.0,402.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round"/>
+<rect x="40.0" y="448.0" width="220.0" height="64.0" rx="10" fill="#F8FAFC" stroke="#64748B" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text xml:space="preserve" x="54.0" y="474.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">Microsoft Outlook</text>
+<rect x="211.6" y="459.0" width="38.4" height="18.0" rx="9" fill="#FFFFFF" stroke="#64748B" stroke-width="1"/>
+<text xml:space="preserve" x="230.8" y="471.6" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#64748B" text-anchor="middle">ph 5</text>
+<text xml:space="preserve" x="54.0" y="495.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155" text-anchor="start">Graph API · Mail.Read</text>
+<path d="M260.0,480.0 L285.0,480.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round"/>
+<rect x="40.0" y="526.0" width="220.0" height="64.0" rx="10" fill="#F8FAFC" stroke="#64748B" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text xml:space="preserve" x="54.0" y="552.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">Overleaf</text>
+<rect x="211.6" y="537.0" width="38.4" height="18.0" rx="9" fill="#FFFFFF" stroke="#64748B" stroke-width="1"/>
+<text xml:space="preserve" x="230.8" y="549.6" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#64748B" text-anchor="middle">ph 4</text>
+<text xml:space="preserve" x="54.0" y="573.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155" text-anchor="start">Git · reads resume.tex</text>
+<path d="M260.0,558.0 L285.0,558.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round"/>
+<path d="M285.0,168.0 L285.0,558.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round"/>
+<text xml:space="preserve" x="330.0" y="124.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#64748B" text-anchor="start" letter-spacing="1.1">COMPASS · PYTHON 3.12 · ONE USER</text>
+<rect x="310.0" y="100.0" width="880.0" height="882.0" rx="14" fill="#FBFCFE" stroke="#94A3B8" stroke-width="1.5"/>
+<text xml:space="preserve" x="330.0" y="124.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#64748B" text-anchor="start" letter-spacing="1.1">COMPASS · PYTHON 3.12 · ONE USER</text>
+<rect x="330.0" y="136.0" width="840.0" height="136.0" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.6"/>
+<text xml:space="preserve" x="346.0" y="163.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#0F172A" text-anchor="start">Connectors</text>
+<text xml:space="preserve" x="443.0" y="163.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="600" fill="#2563EB" text-anchor="start">connectors/</text>
+<text xml:space="preserve" x="346.0" y="183.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#334155" text-anchor="start">Fetch, page through results, convert times to local. Never touch the store.</text>
+<rect x="346.0" y="198.0" width="61.9" height="24.0" rx="6" fill="#FFFFFF" stroke="#2563EB" stroke-width="1.1"/>
+<text xml:space="preserve" x="377.0" y="214.3" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="500" fill="#0F172A" text-anchor="middle">canvas</text>
+<rect x="415.9" y="198.0" width="47.3" height="24.0" rx="6" fill="#FFFFFF" stroke="#2563EB" stroke-width="1.1"/>
+<text xml:space="preserve" x="439.6" y="214.3" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="500" fill="#0F172A" text-anchor="middle">gcal</text>
+<rect x="471.2" y="198.0" width="98.5" height="24.0" rx="6" fill="#FFFFFF" stroke="#2563EB" stroke-width="1.1"/>
+<text xml:space="preserve" x="520.5" y="214.3" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="500" fill="#0F172A" text-anchor="middle">jobs_github</text>
+<rect x="577.7" y="198.0" width="76.6" height="24.0" rx="6" fill="#FFFFFF" stroke="#2563EB" stroke-width="1.1"/>
+<text xml:space="preserve" x="616.0" y="214.3" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="500" fill="#0F172A" text-anchor="middle">jobs_ats</text>
+<rect x="662.3" y="198.0" width="98.5" height="24.0" rx="6" fill="#FFFFFF" stroke="#2563EB" stroke-width="1.1"/>
+<text xml:space="preserve" x="711.5" y="214.3" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="500" fill="#0F172A" text-anchor="middle">jobs_google</text>
+<rect x="768.8" y="198.0" width="76.6" height="24.0" rx="6" fill="#FFFFFF" stroke="#2563EB" stroke-width="1.1"/>
+<text xml:space="preserve" x="807.1" y="214.3" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="500" fill="#0F172A" text-anchor="middle">jobs_web</text>
+<rect x="853.4" y="198.0" width="69.2" height="24.0" rx="6" fill="#FFFFFF" stroke="#2563EB" stroke-width="1.1"/>
+<text xml:space="preserve" x="888.0" y="214.3" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="500" fill="#0F172A" text-anchor="middle">outlook</text>
+<rect x="930.6" y="198.0" width="105.8" height="24.0" rx="6" fill="#FFFFFF" stroke="#2563EB" stroke-width="1.1"/>
+<text xml:space="preserve" x="983.5" y="214.3" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="500" fill="#0F172A" text-anchor="middle">canvas_files</text>
+<rect x="1044.4" y="198.0" width="76.6" height="24.0" rx="6" fill="#FFFFFF" stroke="#2563EB" stroke-width="1.1"/>
+<text xml:space="preserve" x="1082.7" y="214.3" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="500" fill="#0F172A" text-anchor="middle">overleaf</text>
+<rect x="346.0" y="230.0" width="47.3" height="24.0" rx="6" fill="#FFFFFF" stroke="#2563EB" stroke-width="1.1"/>
+<text xml:space="preserve" x="369.6" y="246.3" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="500" fill="#0F172A" text-anchor="middle">demo</text>
+<path d="M285.0,168.0 L330.0,168.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="330.0" y="318.0" width="840.0" height="104.0" rx="10" fill="#F5F3FF" stroke="#7C3AED" stroke-width="1.6"/>
+<text xml:space="preserve" x="346.0" y="345.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#0F172A" text-anchor="start">Orchestrator</text>
+<text xml:space="preserve" x="460.4" y="345.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="600" fill="#7C3AED" text-anchor="start">orchestrator.py</text>
+<text xml:space="preserve" x="346.0" y="365.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#334155" text-anchor="start">Runs each workflow end to end and logs it to runs. Every scheduled job is a compass command.</text>
+<rect x="346.0" y="380.0" width="69.2" height="24.0" rx="6" fill="#FFFFFF" stroke="#7C3AED" stroke-width="1.1"/>
+<text xml:space="preserve" x="380.6" y="396.3" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="500" fill="#0F172A" text-anchor="middle">morning</text>
+<rect x="423.2" y="380.0" width="69.2" height="24.0" rx="6" fill="#FFFFFF" stroke="#7C3AED" stroke-width="1.1"/>
+<text xml:space="preserve" x="457.9" y="396.3" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="500" fill="#0F172A" text-anchor="middle">evening</text>
+<rect x="500.5" y="380.0" width="61.9" height="24.0" rx="6" fill="#FFFFFF" stroke="#7C3AED" stroke-width="1.1"/>
+<text xml:space="preserve" x="531.4" y="396.3" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="500" fill="#0F172A" text-anchor="middle">weekly</text>
+<rect x="570.4" y="380.0" width="69.2" height="24.0" rx="6" fill="#FFFFFF" stroke="#7C3AED" stroke-width="1.1"/>
+<text xml:space="preserve" x="605.0" y="396.3" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="500" fill="#0F172A" text-anchor="middle">nightly</text>
+<rect x="647.6" y="380.0" width="54.6" height="24.0" rx="6" fill="#FFFFFF" stroke="#7C3AED" stroke-width="1.1"/>
+<text xml:space="preserve" x="674.9" y="396.3" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="500" fill="#0F172A" text-anchor="middle">check</text>
+<rect x="710.2" y="380.0" width="113.2" height="24.0" rx="6" fill="#FFFFFF" stroke="#7C3AED" stroke-width="1.1"/>
+<text xml:space="preserve" x="766.8" y="396.3" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="500" fill="#0F172A" text-anchor="middle">sync (ph 3–5)</text>
+<path d="M750.0,272.0 L750.0,318.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text xml:space="preserve" x="760.0" y="299.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#334155" text-anchor="start">SourceResult · fetch in parallel, merge on main thread</text>
+<rect x="330.0" y="468.0" width="410.0" height="136.0" rx="10" fill="#ECFDF5" stroke="#059669" stroke-width="1.6"/>
+<text xml:space="preserve" x="346.0" y="495.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#0F172A" text-anchor="start">Engine</text>
+<text xml:space="preserve" x="408.2" y="495.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="600" fill="#059669" text-anchor="start">engine/</text>
+<text xml:space="preserve" x="346.0" y="515.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#334155" text-anchor="start">Pure functions. Code does the math.</text>
+<rect x="346.0" y="530.0" width="54.6" height="24.0" rx="6" fill="#FFFFFF" stroke="#059669" stroke-width="1.1"/>
+<text xml:space="preserve" x="373.3" y="546.3" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="500" fill="#0F172A" text-anchor="middle">merge</text>
+<rect x="408.6" y="530.0" width="76.6" height="24.0" rx="6" fill="#FFFFFF" stroke="#059669" stroke-width="1.1"/>
+<text xml:space="preserve" x="446.9" y="546.3" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="500" fill="#0F172A" text-anchor="middle">estimate</text>
+<rect x="493.2" y="530.0" width="76.6" height="24.0" rx="6" fill="#FFFFFF" stroke="#059669" stroke-width="1.1"/>
+<text xml:space="preserve" x="531.4" y="546.3" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="500" fill="#0F172A" text-anchor="middle">priority</text>
+<rect x="577.7" y="530.0" width="76.6" height="24.0" rx="6" fill="#FFFFFF" stroke="#059669" stroke-width="1.1"/>
+<text xml:space="preserve" x="616.0" y="546.3" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="500" fill="#0F172A" text-anchor="middle">freetime</text>
+<rect x="346.0" y="562.0" width="69.2" height="24.0" rx="6" fill="#FFFFFF" stroke="#059669" stroke-width="1.1"/>
+<text xml:space="preserve" x="380.6" y="578.3" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="500" fill="#0F172A" text-anchor="middle">planner</text>
+<rect x="423.2" y="562.0" width="76.6" height="24.0" rx="6" fill="#FFFFFF" stroke="#059669" stroke-width="1.1"/>
+<text xml:space="preserve" x="461.5" y="578.3" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="500" fill="#0F172A" text-anchor="middle">warnings</text>
+<rect x="507.8" y="562.0" width="47.3" height="24.0" rx="6" fill="#FFFFFF" stroke="#059669" stroke-width="1.1"/>
+<text xml:space="preserve" x="531.4" y="578.3" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="500" fill="#0F172A" text-anchor="middle">jobs</text>
+<rect x="563.1" y="562.0" width="61.9" height="24.0" rx="6" fill="#FFFFFF" stroke="#059669" stroke-width="1.1"/>
+<text xml:space="preserve" x="594.0" y="578.3" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="500" fill="#0F172A" text-anchor="middle">grades</text>
+<rect x="633.0" y="562.0" width="83.9" height="24.0" rx="6" fill="#FFFFFF" stroke="#059669" stroke-width="1.1"/>
+<text xml:space="preserve" x="674.9" y="578.3" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="500" fill="#0F172A" text-anchor="middle">reminders</text>
+<rect x="760.0" y="468.0" width="410.0" height="136.0" rx="10" fill="#FFF7ED" stroke="#EA580C" stroke-width="1.6"/>
+<text xml:space="preserve" x="776.0" y="495.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#0F172A" text-anchor="start">Agents</text>
+<text xml:space="preserve" x="838.2" y="495.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="600" fill="#EA580C" text-anchor="start">agents/</text>
+<text xml:space="preserve" x="776.0" y="515.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#334155" text-anchor="start">Claude does the language. Code checks every output.</text>
+<rect x="776.0" y="530.0" width="61.9" height="24.0" rx="6" fill="#FFFFFF" stroke="#EA580C" stroke-width="1.1"/>
+<text xml:space="preserve" x="807.0" y="546.3" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="500" fill="#0F172A" text-anchor="middle">writer</text>
+<rect x="845.9" y="530.0" width="54.6" height="24.0" rx="6" fill="#FFFFFF" stroke="#EA580C" stroke-width="1.1"/>
+<text xml:space="preserve" x="873.2" y="546.3" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="500" fill="#0F172A" text-anchor="middle">scout</text>
+<rect x="908.5" y="530.0" width="54.6" height="24.0" rx="6" fill="#FFFFFF" stroke="#EA580C" stroke-width="1.1"/>
+<text xml:space="preserve" x="935.8" y="546.3" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="500" fill="#0F172A" text-anchor="middle">inbox</text>
+<rect x="971.1" y="530.0" width="61.9" height="24.0" rx="6" fill="#FFFFFF" stroke="#EA580C" stroke-width="1.1"/>
+<text xml:space="preserve" x="1002.1" y="546.3" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="500" fill="#0F172A" text-anchor="middle">tailor</text>
+<rect x="1041.0" y="530.0" width="54.6" height="24.0" rx="6" fill="#FFFFFF" stroke="#EA580C" stroke-width="1.1"/>
+<text xml:space="preserve" x="1068.3" y="546.3" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="500" fill="#0F172A" text-anchor="middle">cover</text>
+<rect x="776.0" y="562.0" width="340.1" height="24.0" rx="6" fill="#EA580C" stroke="#EA580C" stroke-width="1.1"/>
+<text xml:space="preserve" x="946.0" y="578.3" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="600" fill="#FFFFFF" text-anchor="middle">llm.py · budgets · schema · cache · cost log</text>
+<path d="M535.0,422.0 L535.0,468.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M965.0,422.0 L965.0,468.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="330.0" y="650.0" width="290.0" height="168.0" rx="10" fill="#F1F5F9" stroke="#475569" stroke-width="1.6"/>
+<text xml:space="preserve" x="346.0" y="677.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#0F172A" text-anchor="start">Store</text>
+<text xml:space="preserve" x="399.5" y="677.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="600" fill="#475569" text-anchor="start">store.py</text>
+<text xml:space="preserve" x="346.0" y="697.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#334155" text-anchor="start">The only module that writes SQL</text>
+<path d="M348,720.0 L348,774.0 A58.0,8 0 0 0 464,774.0 L464,720.0" fill="#FFFFFF" stroke="#475569" stroke-width="1.4"/>
+<ellipse cx="406.0" cy="720.0" rx="58.0" ry="8" fill="#E2E8F0" stroke="#475569" stroke-width="1.4"/>
+<text xml:space="preserve" x="406.0" y="752.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="700" fill="#0F172A" text-anchor="middle">compass.db</text>
+<text xml:space="preserve" x="406.0" y="768.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#64748B" text-anchor="middle">plans · progress</text>
+<path d="M486,720.0 L486,774.0 A58.0,8 0 0 0 602,774.0 L602,720.0" fill="#FFFFFF" stroke="#475569" stroke-width="1.4" stroke-dasharray="6 4"/>
+<ellipse cx="544.0" cy="720.0" rx="58.0" ry="8" fill="#E2E8F0" stroke="#475569" stroke-width="1.4" stroke-dasharray="6 4"/>
+<text xml:space="preserve" x="544.0" y="752.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="700" fill="#0F172A" text-anchor="middle">courses.db</text>
+<text xml:space="preserve" x="544.0" y="768.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#64748B" text-anchor="middle">FTS5 search · ph 6</text>
+<rect x="650.0" y="650.0" width="250.0" height="168.0" rx="10" fill="#F0FDFA" stroke="#0D9488" stroke-width="1.6"/>
+<text xml:space="preserve" x="666.0" y="677.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#0F172A" text-anchor="start">Views</text>
+<text xml:space="preserve" x="719.5" y="677.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="600" fill="#0D9488" text-anchor="start">views.py</text>
+<text xml:space="preserve" x="666.0" y="697.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#334155" text-anchor="start">Shared read queries</text>
+<rect x="666.0" y="712.0" width="91.2" height="24.0" rx="6" fill="#FFFFFF" stroke="#0D9488" stroke-width="1.1"/>
+<text xml:space="preserve" x="711.6" y="728.3" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="500" fill="#0F172A" text-anchor="middle">today_plan</text>
+<rect x="765.2" y="712.0" width="76.6" height="24.0" rx="6" fill="#FFFFFF" stroke="#0D9488" stroke-width="1.1"/>
+<text xml:space="preserve" x="803.5" y="728.3" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="500" fill="#0F172A" text-anchor="middle">due_soon</text>
+<rect x="666.0" y="744.0" width="83.9" height="24.0" rx="6" fill="#FFFFFF" stroke="#0D9488" stroke-width="1.1"/>
+<text xml:space="preserve" x="707.9" y="760.3" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="500" fill="#0F172A" text-anchor="middle">free_time</text>
+<rect x="757.9" y="744.0" width="76.6" height="24.0" rx="6" fill="#FFFFFF" stroke="#0D9488" stroke-width="1.1"/>
+<text xml:space="preserve" x="796.2" y="760.3" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="500" fill="#0F172A" text-anchor="middle">warnings</text>
+<rect x="666.0" y="776.0" width="91.2" height="24.0" rx="6" fill="#FFFFFF" stroke="#0D9488" stroke-width="1.1"/>
+<text xml:space="preserve" x="711.6" y="792.3" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="500" fill="#0F172A" text-anchor="middle">jobs_today</text>
+<rect x="930.0" y="650.0" width="240.0" height="168.0" rx="10" fill="#FEF2F2" stroke="#DC2626" stroke-width="1.6" stroke-dasharray="6 4"/>
+<text xml:space="preserve" x="946.0" y="677.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#0F172A" text-anchor="start">Actions</text>
+<text xml:space="preserve" x="1016.9" y="677.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="600" fill="#DC2626" text-anchor="start">actions/</text>
+<text xml:space="preserve" x="946.0" y="697.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#334155" text-anchor="start">Every write passes the gate</text>
+<rect x="946.0" y="712.0" width="69.2" height="24.0" rx="6" fill="#DC2626" stroke="#DC2626" stroke-width="1.1"/>
+<text xml:space="preserve" x="980.6" y="728.3" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="600" fill="#FFFFFF" text-anchor="middle">gate.py</text>
+<rect x="1023.2" y="712.0" width="127.8" height="24.0" rx="6" fill="#FFFFFF" stroke="#DC2626" stroke-width="1.1"/>
+<text xml:space="preserve" x="1087.1" y="728.3" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="500" fill="#0F172A" text-anchor="middle">calendar_writer</text>
+<rect x="946.0" y="744.0" width="76.6" height="24.0" rx="6" fill="#FFFFFF" stroke="#DC2626" stroke-width="1.1"/>
+<text xml:space="preserve" x="984.3" y="760.3" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="500" fill="#0F172A" text-anchor="middle">delivery</text>
+<rect x="1030.6" y="744.0" width="113.2" height="24.0" rx="6" fill="#FFFFFF" stroke="#DC2626" stroke-width="1.1"/>
+<text xml:space="preserve" x="1087.1" y="760.3" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="500" fill="#0F172A" text-anchor="middle">overleaf_push</text>
+<path d="M475.0,604.0 L475.0,650.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text xml:space="preserve" x="485.0" y="631.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#334155" text-anchor="start">merge · save_plan</text>
+<path d="M1050.0,604.0 L1050.0,650.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text xml:space="preserve" x="1060.0" y="631.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#334155" text-anchor="start">brief · drafts</text>
+<path d="M620.0,734.0 L650.0,734.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="330.0" y="868.0" width="198.0" height="92.0" rx="10" fill="#EEF2FF" stroke="#4F46E5" stroke-width="1.5"/>
+<text xml:space="preserve" x="344.0" y="894.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="13.5" font-weight="700" fill="#0F172A" text-anchor="start">cli.py</text>
+<text xml:space="preserve" x="344.0" y="915.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155" text-anchor="start">Terminal commands</text>
+<text xml:space="preserve" x="344.0" y="933.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#64748B" text-anchor="start">writes user rows only</text>
+<path d="M429.0,842.0 L429.0,868.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="544.0" y="868.0" width="198.0" height="92.0" rx="10" fill="#EEF2FF" stroke="#4F46E5" stroke-width="1.5"/>
+<text xml:space="preserve" x="558.0" y="894.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="13.5" font-weight="700" fill="#0F172A" text-anchor="start">outputs/brief.py</text>
+<text xml:space="preserve" x="558.0" y="915.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155" text-anchor="start">Morning brief, Markdown</text>
+<text xml:space="preserve" x="558.0" y="933.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#64748B" text-anchor="start">writer, template fallback</text>
+<path d="M643.0,842.0 L643.0,868.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="758.0" y="868.0" width="198.0" height="92.0" rx="10" fill="#EEF2FF" stroke="#4F46E5" stroke-width="1.5"/>
+<text xml:space="preserve" x="772.0" y="894.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="13.5" font-weight="700" fill="#0F172A" text-anchor="start">outputs/dashboard.py</text>
+<text xml:space="preserve" x="772.0" y="915.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155" text-anchor="start">FastAPI, read-only</text>
+<text xml:space="preserve" x="772.0" y="933.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#64748B" text-anchor="start">127.0.0.1, hosted in ph 6</text>
+<path d="M857.0,842.0 L857.0,868.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="972.0" y="868.0" width="198.0" height="92.0" rx="10" fill="#EEF2FF" stroke="#4F46E5" stroke-width="1.5"/>
+<text xml:space="preserve" x="986.0" y="894.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="13.5" font-weight="700" fill="#0F172A" text-anchor="start">mcp/server.py</text>
+<text xml:space="preserve" x="986.0" y="915.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155" text-anchor="start">Tools for Claude Projects</text>
+<text xml:space="preserve" x="986.0" y="933.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#64748B" text-anchor="start">only log_* tools write</text>
+<path d="M1071.0,842.0 L1071.0,868.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M775.0,818.0 L775.0,842.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round"/>
+<path d="M429.0,842.0 L1071.0,842.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round"/>
+<text xml:space="preserve" x="330.0" y="846.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#64748B" text-anchor="start" letter-spacing="1.1">FRONT DOORS</text>
+<text xml:space="preserve" x="1240.0" y="124.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#64748B" text-anchor="start" letter-spacing="1.1">CLAUDE · OUTSIDE SERVICES</text>
+<rect x="1240.0" y="486.0" width="320.0" height="100.0" rx="10" fill="#FFF7ED" stroke="#C2410C" stroke-width="1.5"/>
+<text xml:space="preserve" x="1254.0" y="512.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">Claude API</text>
+<rect x="1481.2" y="497.0" width="68.8" height="18.0" rx="9" fill="#FFFFFF" stroke="#C2410C" stroke-width="1"/>
+<text xml:space="preserve" x="1515.6" y="509.6" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#C2410C" text-anchor="middle">Anthropic</text>
+<text xml:space="preserve" x="1254.0" y="533.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155" text-anchor="start">Haiku filters · Sonnet writes · Opus if asked</text>
+<text xml:space="preserve" x="1254.0" y="551.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#64748B" text-anchor="start">laptop: ant login · CI and server: API key</text>
+<text xml:space="preserve" x="1254.0" y="569.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#64748B" text-anchor="start">spend limit · daily budget per agent</text>
+<path d="M1170.0,536.0 L1240.0,536.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="1240.0" y="675.0" width="320.0" height="118.0" rx="10" fill="#FEF2F2" stroke="#DC2626" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text xml:space="preserve" x="1254.0" y="701.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">Gated write targets</text>
+<rect x="1499.5" y="686.0" width="50.5" height="18.0" rx="9" fill="#FFFFFF" stroke="#DC2626" stroke-width="1"/>
+<text xml:space="preserve" x="1524.7" y="698.6" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#DC2626" text-anchor="middle">ph 4–9</text>
+<text xml:space="preserve" x="1254.0" y="722.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155" text-anchor="start">Google Calendar · Compass calendar only</text>
+<text xml:space="preserve" x="1254.0" y="740.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#64748B" text-anchor="start">Overleaf · tailored/ folder only</text>
+<text xml:space="preserve" x="1254.0" y="758.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#64748B" text-anchor="start">Email or push · to you only</text>
+<text xml:space="preserve" x="1254.0" y="776.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#64748B" text-anchor="start">dry_run first, then on · audit log</text>
+<path d="M1170.0,734.0 L1240.0,734.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="1240.0" y="855.0" width="320.0" height="118.0" rx="10" fill="#FFF7ED" stroke="#C2410C" stroke-width="1.5"/>
+<text xml:space="preserve" x="1254.0" y="881.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">Claude Projects · mentors</text>
+<text xml:space="preserve" x="1254.0" y="902.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155" text-anchor="start">one Project per subject</text>
+<text xml:space="preserve" x="1254.0" y="920.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#64748B" text-anchor="start">claude.ai · Claude Desktop · phone</text>
+<text xml:space="preserve" x="1254.0" y="938.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#64748B" text-anchor="start">MCP: stdio, then HTTPS with OAuth (ph 6)</text>
+<text xml:space="preserve" x="1254.0" y="956.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#64748B" text-anchor="start">explain · plan · review, never graded work</text>
+<path d="M1170.0,914.0 L1240.0,914.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="330.0" y="1028.0" width="1230.0" height="56.0" rx="10" fill="#FFFFFF" stroke="#0F172A" stroke-width="1.6"/>
+<text xml:space="preserve" x="348.0" y="1062.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#0F172A" text-anchor="start">You</text>
+<text xml:space="preserve" x="388.0" y="1062.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#334155" text-anchor="start">terminal · browser · phone · study chats in each subject Project</text>
+<path d="M429.0,960.0 L429.0,1028.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<path d="M643.0,960.0 L643.0,1028.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M857.0,960.0 L857.0,1028.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M1400.0,973.0 L1400.0,1028.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<text xml:space="preserve" x="40.0" y="1130.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#64748B" text-anchor="start" letter-spacing="1.1">WHERE IT RUNS</text>
+<rect x="40.0" y="1146.0" width="480.0" height="104.0" rx="10" fill="#F8FAFC" stroke="#475569" stroke-width="1.5"/>
+<text xml:space="preserve" x="54.0" y="1172.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">Laptop</text>
+<rect x="435.1" y="1157.0" width="74.9" height="18.0" rx="9" fill="#FFFFFF" stroke="#475569" stroke-width="1"/>
+<text xml:space="preserve" x="472.6" y="1169.6" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#475569" text-anchor="middle">phases 1–2</text>
+<text xml:space="preserve" x="54.0" y="1193.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155" text-anchor="start">Run by hand: compass brief</text>
+<text xml:space="preserve" x="54.0" y="1211.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#64748B" text-anchor="start">compass.db on the laptop</text>
+<text xml:space="preserve" x="54.0" y="1229.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#64748B" text-anchor="start">MCP over stdio in Claude Desktop</text>
+<rect x="560.0" y="1146.0" width="480.0" height="104.0" rx="10" fill="#F8FAFC" stroke="#475569" stroke-width="1.5"/>
+<text xml:space="preserve" x="574.0" y="1172.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">GitHub Actions</text>
+<rect x="955.1" y="1157.0" width="74.9" height="18.0" rx="9" fill="#FFFFFF" stroke="#475569" stroke-width="1"/>
+<text xml:space="preserve" x="992.6" y="1169.6" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#475569" text-anchor="middle">phases 3–5</text>
+<text xml:space="preserve" x="574.0" y="1193.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155" text-anchor="start">Cron at 6:15 Central on weekdays</text>
+<text xml:space="preserve" x="574.0" y="1211.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#64748B" text-anchor="start">compass.db on the state branch</text>
+<text xml:space="preserve" x="574.0" y="1229.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#64748B" text-anchor="start">laptop adds user rows with compass sync</text>
+<path d="M520.0,1198.0 L560.0,1198.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="1080.0" y="1146.0" width="480.0" height="104.0" rx="10" fill="#F8FAFC" stroke="#475569" stroke-width="1.5"/>
+<text xml:space="preserve" x="1094.0" y="1172.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="start">Always-on server</text>
+<rect x="1475.1" y="1157.0" width="74.9" height="18.0" rx="9" fill="#FFFFFF" stroke="#475569" stroke-width="1"/>
+<text xml:space="preserve" x="1512.5" y="1169.6" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#475569" text-anchor="middle">phases 6–9</text>
+<text xml:space="preserve" x="1094.0" y="1193.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155" text-anchor="start">Scheduler in local time</text>
+<text xml:space="preserve" x="1094.0" y="1211.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#64748B" text-anchor="start">compass.db on disk, daily backup</text>
+<text xml:space="preserve" x="1094.0" y="1229.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#64748B" text-anchor="start">MCP over HTTPS with OAuth</text>
+<path d="M1040.0,1198.0 L1080.0,1198.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text xml:space="preserve" x="40.0" y="1282.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#64748B" text-anchor="start" font-style="italic">Only secrets and the scheduler change between stages. engine/, agents/ and connectors/ don't know where they run.</text>
+</svg>

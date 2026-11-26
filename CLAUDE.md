@@ -4,6 +4,13 @@ Compass is a personal planner agent for one student. It pulls Canvas, Google Cal
 
 The plan is in `plan/`. `plan/README.md` has the decisions and phases. Each phase folder has a `README.md` checklist and one `step-NN-*.md` file per feature.
 
+The architecture is in `docs/architecture.md`: package layers and what each may import, core interfaces, data ownership, and decisions D1–D7. Follow it when building a step. If a step conflicts with it, say so before building.
+
+Current status, file map and open issues (read this instead of re-reviewing the repo):
+@CONTEXT.md
+
+Keep `CONTEXT.md` current. After any change that affects status, structure, decisions, known issues or open questions (not only plan steps), update the matching section before you finish. Keep it short and replace stale lines, don't append history. A Stop hook (`.claude/hooks/context-check.sh`) sends you back once if tracked files changed but `CONTEXT.md` didn't.
+
 ## Building a plan step
 
 When asked to do a step (for example "do step 1.4" or "build plan/phase-1-planner-and-brief/step-04-estimate.md"):
@@ -14,7 +21,7 @@ When asked to do a step (for example "do step 1.4" or "build plan/phase-1-planne
 4. Build only what the step describes. If something outside the step must change, keep it minimal and mention it.
 5. Write the tests the step lists, then run the whole suite with `.venv/bin/pytest`.
 6. Check every line under "Done when".
-7. Tick the step in the phase `README.md`.
+7. Tick the step in the phase `README.md`, and update the Status section of `CONTEXT.md` (and any issue or decision the step settled).
 8. Report what changed, any decision you made, and anything the user has to do. Then stop. Don't start the next step, and don't commit unless asked.
 
 If a step says **You do**, those are tasks only the user can do (accounts, logins, settings). Walk the user through them and wait.

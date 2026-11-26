@@ -1,0 +1,303 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1860" height="1599" viewBox="0 0 1860 1599" role="img" aria-label="Compass UML class diagram">
+<title>Compass UML class diagram</title>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="10" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#334155"/></marker>
+<marker id="open" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto"><path d="M1,1 L11,6 L1,11" fill="none" stroke="#334155" stroke-width="1.4"/></marker>
+<marker id="tri" viewBox="0 0 16 16" refX="15" refY="8" markerWidth="16" markerHeight="16" markerUnits="userSpaceOnUse" orient="auto"><path d="M1,1 L15,8 L1,15 z" fill="#FFFFFF" stroke="#334155" stroke-width="1.4"/></marker>
+<marker id="dia" viewBox="0 0 20 12" refX="19" refY="6" markerWidth="20" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto"><path d="M1,6 L10,1 L19,6 L10,11 z" fill="#FFFFFF" stroke="#334155" stroke-width="1.4"/></marker>
+<marker id="diaf" viewBox="0 0 20 12" refX="19" refY="6" markerWidth="20" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto"><path d="M1,6 L10,1 L19,6 L10,11 z" fill="#334155" stroke="#334155" stroke-width="1.4"/></marker>
+</defs>
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<text xml:space="preserve" x="40.0" y="52.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#0F172A" text-anchor="start">Compass · UML class diagram</text>
+<text xml:space="preserve" x="40.0" y="80.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#64748B" text-anchor="start">Core models and contracts. ‹1.3› marks a member added in plan step 1.3. ‹D5› marks a decision in docs/architecture.md.</text>
+<path d="M40.0,112.0 L86.0,112.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" stroke-dasharray="6 4" marker-end="url(#tri)"/>
+<text xml:space="preserve" x="96.0" y="116.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155" text-anchor="start">realizes</text>
+<path d="M177.8,112.0 L223.8,112.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" stroke-dasharray="6 4" marker-end="url(#open)"/>
+<text xml:space="preserve" x="233.8" y="116.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155" text-anchor="start">depends on</text>
+<path d="M328.6,112.0 L374.6,112.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#dia)"/>
+<text xml:space="preserve" x="384.6" y="116.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155" text-anchor="start">aggregation</text>
+<path d="M485.9,112.0 L531.9,112.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#diaf)"/>
+<text xml:space="preserve" x="541.9" y="116.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155" text-anchor="start">composition</text>
+<path d="M643.2,112.0 L689.2,112.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#open)"/>
+<text xml:space="preserve" x="699.2" y="116.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#334155" text-anchor="start">association</text>
+<rect x="40.0" y="150.0" width="400.0" height="120.0" rx="0" fill="#FFFFFF" stroke="#2563EB" stroke-width="1.5"/>
+<rect x="40.0" y="150.0" width="400.0" height="54.0" rx="0" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.5"/>
+<text xml:space="preserve" x="240.0" y="169.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#64748B" text-anchor="middle" font-style="italic">«protocol»</text>
+<text xml:space="preserve" x="213.9" y="190.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#0F172A" text-anchor="start">Source</text>
+<text xml:space="preserve" x="52.0" y="225.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ name: str</text>
+<path d="M40.0,237.0 L440.0,237.0" fill="none" stroke="#2563EB" stroke-width="1.2" stroke-linejoin="round"/>
+<text xml:space="preserve" x="52.0" y="258.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ fetch(start, end): SourceResult</text>
+<rect x="500.0" y="150.0" width="400.0" height="182.0" rx="0" fill="#FFFFFF" stroke="#2563EB" stroke-width="1.5"/>
+<rect x="500.0" y="150.0" width="400.0" height="54.0" rx="0" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.5"/>
+<text xml:space="preserve" x="700.0" y="169.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#64748B" text-anchor="middle" font-style="italic">«pydantic»</text>
+<text xml:space="preserve" x="647.8" y="190.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#0F172A" text-anchor="start">SourceResult</text>
+<text xml:space="preserve" x="512.0" y="225.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ source: str</text>
+<text xml:space="preserve" x="512.0" y="244.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ tasks: list[Task]</text>
+<text xml:space="preserve" x="512.0" y="263.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ events: list[Event]</text>
+<text xml:space="preserve" x="512.0" y="282.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ jobs: list[Job]</text>
+<text xml:space="preserve" x="647.6" y="282.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#B45309" text-anchor="start">‹2.4›</text>
+<text xml:space="preserve" x="512.0" y="301.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ emails: list[Email]</text>
+<text xml:space="preserve" x="678.1" y="301.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#B45309" text-anchor="start">‹5.2›</text>
+<text xml:space="preserve" x="512.0" y="320.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ error: str = ""</text>
+<rect x="960.0" y="150.0" width="400.0" height="253.0" rx="0" fill="#FFFFFF" stroke="#7C3AED" stroke-width="1.5"/>
+<rect x="960.0" y="150.0" width="400.0" height="54.0" rx="0" fill="#F5F3FF" stroke="#7C3AED" stroke-width="1.5"/>
+<text xml:space="preserve" x="1160.0" y="169.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#64748B" text-anchor="middle" font-style="italic">«pydantic»</text>
+<text xml:space="preserve" x="1133.9" y="190.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#0F172A" text-anchor="start">Config</text>
+<text xml:space="preserve" x="972.0" y="225.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ day_window: DayWindow</text>
+<text xml:space="preserve" x="972.0" y="244.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ protected: list[ProtectedTime]</text>
+<text xml:space="preserve" x="972.0" y="263.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ planner: PlannerConfig</text>
+<text xml:space="preserve" x="972.0" y="282.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ calendars: list[str]</text>
+<text xml:space="preserve" x="972.0" y="301.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ models: dict[str, str]</text>
+<text xml:space="preserve" x="972.0" y="320.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ budgets: dict[str, int]</text>
+<text xml:space="preserve" x="1168.6" y="320.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#B45309" text-anchor="start">‹1.13›</text>
+<text xml:space="preserve" x="972.0" y="339.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ timezone: str</text>
+<path d="M960.0,351.0 L1360.0,351.0" fill="none" stroke="#7C3AED" stroke-width="1.2" stroke-linejoin="round"/>
+<text xml:space="preserve" x="972.0" y="372.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ tz: ZoneInfo  «property»</text>
+<text xml:space="preserve" x="972.0" y="391.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">load_config(path): Config</text>
+<rect x="1420.0" y="150.0" width="400.0" height="215.0" rx="0" fill="#FFFFFF" stroke="#7C3AED" stroke-width="1.5"/>
+<rect x="1420.0" y="150.0" width="400.0" height="54.0" rx="0" fill="#F5F3FF" stroke="#7C3AED" stroke-width="1.5"/>
+<text xml:space="preserve" x="1620.0" y="169.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#64748B" text-anchor="middle" font-style="italic">«pydantic»</text>
+<text xml:space="preserve" x="1589.5" y="190.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#0F172A" text-anchor="start">Secrets</text>
+<text xml:space="preserve" x="1432.0" y="225.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ canvas_base_url: str | None</text>
+<text xml:space="preserve" x="1432.0" y="244.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ canvas_token: SecretStr | None</text>
+<text xml:space="preserve" x="1432.0" y="263.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ google_client_file: str | None</text>
+<text xml:space="preserve" x="1432.0" y="282.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ google_refresh_token: SecretStr</text>
+<text xml:space="preserve" x="1689.6" y="282.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#B45309" text-anchor="start">‹3.2›</text>
+<text xml:space="preserve" x="1432.0" y="301.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ anthropic_api_key: SecretStr | None</text>
+<text xml:space="preserve" x="1432.0" y="320.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ outlook_refresh_token: SecretStr</text>
+<text xml:space="preserve" x="1697.2" y="320.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#B45309" text-anchor="start">‹5.1›</text>
+<path d="M1420.0,332.0 L1820.0,332.0" fill="none" stroke="#7C3AED" stroke-width="1.2" stroke-linejoin="round"/>
+<text xml:space="preserve" x="1432.0" y="353.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">load_env(): Secrets  # repr hides values</text>
+<rect x="40.0" y="310.0" width="180.0" height="32.0" rx="0" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.4"/>
+<text xml:space="preserve" x="63.0" y="331.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="600" fill="#0F172A" text-anchor="start">CanvasSource</text>
+<text xml:space="preserve" x="160.5" y="331.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#B45309" text-anchor="start">‹1.10›</text>
+<path d="M220.0,326.0 L240.0,326.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" stroke-dasharray="6 4"/>
+<rect x="40.0" y="352.0" width="180.0" height="32.0" rx="0" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.4"/>
+<text xml:space="preserve" x="70.6" y="373.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="600" fill="#0F172A" text-anchor="start">GCalSource</text>
+<text xml:space="preserve" x="152.9" y="373.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#B45309" text-anchor="start">‹1.11›</text>
+<path d="M220.0,368.0 L240.0,368.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" stroke-dasharray="6 4"/>
+<rect x="40.0" y="394.0" width="180.0" height="32.0" rx="0" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.4"/>
+<text xml:space="preserve" x="73.7" y="415.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="600" fill="#0F172A" text-anchor="start">DemoSource</text>
+<text xml:space="preserve" x="155.9" y="415.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#B45309" text-anchor="start">‹1.9›</text>
+<path d="M220.0,410.0 L240.0,410.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" stroke-dasharray="6 4"/>
+<rect x="260.0" y="310.0" width="180.0" height="32.0" rx="0" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.4"/>
+<text xml:space="preserve" x="270.8" y="331.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="600" fill="#0F172A" text-anchor="start">GitHubJobsSource</text>
+<text xml:space="preserve" x="398.8" y="331.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#B45309" text-anchor="start">‹2.5›</text>
+<path d="M260.0,326.0 L240.0,326.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" stroke-dasharray="6 4"/>
+<rect x="260.0" y="352.0" width="180.0" height="32.0" rx="0" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.4"/>
+<text xml:space="preserve" x="282.2" y="373.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="600" fill="#0F172A" text-anchor="start">ATSJobsSource</text>
+<text xml:space="preserve" x="387.3" y="373.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#B45309" text-anchor="start">‹2.6›</text>
+<path d="M260.0,368.0 L240.0,368.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" stroke-dasharray="6 4"/>
+<rect x="260.0" y="394.0" width="180.0" height="32.0" rx="0" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.4"/>
+<text xml:space="preserve" x="282.2" y="415.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="600" fill="#0F172A" text-anchor="start">OutlookSource</text>
+<text xml:space="preserve" x="387.3" y="415.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#B45309" text-anchor="start">‹5.2›</text>
+<path d="M260.0,410.0 L240.0,410.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" stroke-dasharray="6 4"/>
+<path d="M240.0,410.0 L240.0,270.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" stroke-dasharray="6 4" marker-end="url(#tri)"/>
+<path d="M440.0,214.0 L500.0,214.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" stroke-dasharray="6 4" marker-end="url(#open)"/>
+<text xml:space="preserve" x="470.0" y="206.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#64748B" text-anchor="middle" font-style="italic">«returns»</text>
+<rect x="40.0" y="506.0" width="400.0" height="310.0" rx="0" fill="#FFFFFF" stroke="#059669" stroke-width="1.5"/>
+<rect x="40.0" y="506.0" width="400.0" height="54.0" rx="0" fill="#ECFDF5" stroke="#059669" stroke-width="1.5"/>
+<text xml:space="preserve" x="240.0" y="525.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#64748B" text-anchor="middle" font-style="italic">«pydantic»</text>
+<text xml:space="preserve" x="222.6" y="546.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#0F172A" text-anchor="start">Task</text>
+<text xml:space="preserve" x="52.0" y="581.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ id: str  # "canvas:123"</text>
+<text xml:space="preserve" x="52.0" y="600.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ title: str</text>
+<text xml:space="preserve" x="52.0" y="619.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ source: str</text>
+<text xml:space="preserve" x="52.0" y="638.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ course: str</text>
+<text xml:space="preserve" x="52.0" y="657.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ due: datetime | None</text>
+<text xml:space="preserve" x="52.0" y="676.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ points: float</text>
+<text xml:space="preserve" x="52.0" y="695.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ est_minutes: int</text>
+<text xml:space="preserve" x="52.0" y="714.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ done_minutes: int  # Σ progress</text>
+<text xml:space="preserve" x="309.6" y="714.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#B45309" text-anchor="start">‹2.3›</text>
+<text xml:space="preserve" x="52.0" y="733.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ submitted: bool</text>
+<text xml:space="preserve" x="52.0" y="752.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ missing: bool</text>
+<text xml:space="preserve" x="172.4" y="752.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#B45309" text-anchor="start">‹1.3›</text>
+<text xml:space="preserve" x="52.0" y="771.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ url: str</text>
+<path d="M40.0,783.0 L440.0,783.0" fill="none" stroke="#059669" stroke-width="1.2" stroke-linejoin="round"/>
+<text xml:space="preserve" x="52.0" y="804.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ remaining_minutes(): int</text>
+<rect x="500.0" y="506.0" width="400.0" height="220.0" rx="0" fill="#FFFFFF" stroke="#059669" stroke-width="1.5"/>
+<rect x="500.0" y="506.0" width="400.0" height="54.0" rx="0" fill="#ECFDF5" stroke="#059669" stroke-width="1.5"/>
+<text xml:space="preserve" x="700.0" y="525.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#64748B" text-anchor="middle" font-style="italic">«pydantic»</text>
+<text xml:space="preserve" x="678.2" y="546.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#0F172A" text-anchor="start">Event</text>
+<text xml:space="preserve" x="512.0" y="581.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ id: str  # "gcal:abc"</text>
+<text xml:space="preserve" x="512.0" y="600.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ title: str</text>
+<text xml:space="preserve" x="512.0" y="619.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ start: datetime</text>
+<text xml:space="preserve" x="512.0" y="638.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ end: datetime</text>
+<text xml:space="preserve" x="512.0" y="657.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ kind: EventKind</text>
+<text xml:space="preserve" x="512.0" y="676.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ all_day: bool</text>
+<text xml:space="preserve" x="632.4" y="676.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#B45309" text-anchor="start">‹1.11›</text>
+<text xml:space="preserve" x="512.0" y="695.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ calendar_id: str</text>
+<text xml:space="preserve" x="655.2" y="695.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#B45309" text-anchor="start">‹7.2›</text>
+<text xml:space="preserve" x="512.0" y="714.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ created_by_agent: bool</text>
+<rect x="960.0" y="506.0" width="400.0" height="296.0" rx="0" fill="#FFFFFF" stroke="#059669" stroke-width="1.5"/>
+<rect x="960.0" y="506.0" width="400.0" height="54.0" rx="0" fill="#ECFDF5" stroke="#059669" stroke-width="1.5"/>
+<text xml:space="preserve" x="1160.0" y="525.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#64748B" text-anchor="middle" font-style="italic">«pydantic»</text>
+<text xml:space="preserve" x="1128.0" y="546.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#0F172A" text-anchor="start">Job</text>
+<text xml:space="preserve" x="1160.1" y="546.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#B45309" text-anchor="start">‹2.4›</text>
+<text xml:space="preserve" x="972.0" y="581.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ id: str  # "job:src:id"</text>
+<text xml:space="preserve" x="972.0" y="600.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ company: str</text>
+<text xml:space="preserve" x="972.0" y="619.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ title: str</text>
+<text xml:space="preserve" x="972.0" y="638.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ location: str</text>
+<text xml:space="preserve" x="972.0" y="657.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ remote: bool</text>
+<text xml:space="preserve" x="972.0" y="676.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ url: str</text>
+<text xml:space="preserve" x="972.0" y="695.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ sources: list[str]</text>
+<text xml:space="preserve" x="972.0" y="714.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ posted_at: datetime</text>
+<text xml:space="preserve" x="972.0" y="733.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ first_seen: datetime</text>
+<text xml:space="preserve" x="972.0" y="752.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ season: str</text>
+<text xml:space="preserve" x="972.0" y="771.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ score: int | None</text>
+<text xml:space="preserve" x="1122.9" y="771.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#B45309" text-anchor="start">‹2.8›</text>
+<text xml:space="preserve" x="972.0" y="790.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ reason: str</text>
+<text xml:space="preserve" x="1077.1" y="790.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#B45309" text-anchor="start">‹2.8›</text>
+<rect x="1420.0" y="506.0" width="400.0" height="220.0" rx="0" fill="#FFFFFF" stroke="#059669" stroke-width="1.5"/>
+<rect x="1420.0" y="506.0" width="400.0" height="54.0" rx="0" fill="#ECFDF5" stroke="#059669" stroke-width="1.5"/>
+<text xml:space="preserve" x="1620.0" y="525.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#64748B" text-anchor="middle" font-style="italic">«pydantic»</text>
+<text xml:space="preserve" x="1579.3" y="546.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#0F172A" text-anchor="start">Email</text>
+<text xml:space="preserve" x="1628.8" y="546.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#B45309" text-anchor="start">‹5.2›</text>
+<text xml:space="preserve" x="1432.0" y="581.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ id: str  # "outlook:&lt;msg&gt;"</text>
+<text xml:space="preserve" x="1432.0" y="600.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ received: datetime</text>
+<text xml:space="preserve" x="1432.0" y="619.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ sender_name: str</text>
+<text xml:space="preserve" x="1432.0" y="638.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ sender_domain: str</text>
+<text xml:space="preserve" x="1432.0" y="657.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ subject: str</text>
+<text xml:space="preserve" x="1432.0" y="676.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ snippet: str  # ≤ 500 chars</text>
+<text xml:space="preserve" x="1432.0" y="695.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ conversation_id: str</text>
+<text xml:space="preserve" x="1432.0" y="714.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ label: EmailLabel | None</text>
+<text xml:space="preserve" x="1636.2" y="714.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#B45309" text-anchor="start">‹5.3›</text>
+<path d="M240.0,506.0 L240.0,472.0 L700.0,472.0 L700.0,332.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#dia)"/>
+<text xml:space="preserve" x="248.0" y="498.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#334155" text-anchor="start">0..*</text>
+<path d="M700.0,506.0 L700.0,472.0 L700.0,472.0 L700.0,332.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#dia)"/>
+<text xml:space="preserve" x="708.0" y="498.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#334155" text-anchor="start">0..*</text>
+<path d="M1160.0,506.0 L1160.0,472.0 L700.0,472.0 L700.0,332.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#dia)"/>
+<text xml:space="preserve" x="1168.0" y="498.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#334155" text-anchor="start">0..*</text>
+<path d="M1620.0,506.0 L1620.0,472.0 L700.0,472.0 L700.0,332.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#dia)"/>
+<text xml:space="preserve" x="1628.0" y="498.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#334155" text-anchor="start">0..*</text>
+<rect x="40.0" y="892.0" width="400.0" height="196.0" rx="0" fill="#FFFFFF" stroke="#059669" stroke-width="1.5"/>
+<rect x="40.0" y="892.0" width="400.0" height="54.0" rx="0" fill="#ECFDF5" stroke="#059669" stroke-width="1.5"/>
+<text xml:space="preserve" x="240.0" y="911.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#64748B" text-anchor="middle" font-style="italic">«pydantic»</text>
+<text xml:space="preserve" x="218.2" y="932.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#0F172A" text-anchor="start">Block</text>
+<text xml:space="preserve" x="52.0" y="967.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ start: datetime</text>
+<text xml:space="preserve" x="52.0" y="986.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ end: datetime</text>
+<text xml:space="preserve" x="52.0" y="1005.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ kind: BlockKind</text>
+<text xml:space="preserve" x="52.0" y="1024.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ title: str</text>
+<text xml:space="preserve" x="52.0" y="1043.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ task_id: str | None</text>
+<path d="M40.0,1055.0 L440.0,1055.0" fill="none" stroke="#059669" stroke-width="1.2" stroke-linejoin="round"/>
+<text xml:space="preserve" x="52.0" y="1076.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ minutes(): int</text>
+<rect x="500.0" y="892.0" width="400.0" height="125.0" rx="0" fill="#FFFFFF" stroke="#059669" stroke-width="1.5"/>
+<rect x="500.0" y="892.0" width="400.0" height="54.0" rx="0" fill="#ECFDF5" stroke="#059669" stroke-width="1.5"/>
+<text xml:space="preserve" x="700.0" y="911.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#64748B" text-anchor="middle" font-style="italic">«pydantic»</text>
+<text xml:space="preserve" x="669.5" y="932.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#0F172A" text-anchor="start">DayPlan</text>
+<text xml:space="preserve" x="512.0" y="967.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ date: date</text>
+<text xml:space="preserve" x="512.0" y="986.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ blocks: list[Block]</text>
+<text xml:space="preserve" x="512.0" y="1005.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ unplaced: list[str]  # task ids</text>
+<rect x="960.0" y="892.0" width="400.0" height="163.0" rx="0" fill="#FFFFFF" stroke="#059669" stroke-width="1.5"/>
+<rect x="960.0" y="892.0" width="400.0" height="54.0" rx="0" fill="#ECFDF5" stroke="#059669" stroke-width="1.5"/>
+<text xml:space="preserve" x="1160.0" y="911.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#64748B" text-anchor="middle" font-style="italic">«pydantic»</text>
+<text xml:space="preserve" x="1133.9" y="932.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#0F172A" text-anchor="start">Change</text>
+<text xml:space="preserve" x="972.0" y="967.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ entity_id: str  # → Task.id</text>
+<text xml:space="preserve" x="972.0" y="986.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ field: str</text>
+<text xml:space="preserve" x="972.0" y="1005.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ old: str | None</text>
+<text xml:space="preserve" x="972.0" y="1024.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ new: str | None</text>
+<text xml:space="preserve" x="972.0" y="1043.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ detected_at: datetime</text>
+<rect x="1420.0" y="892.0" width="400.0" height="144.0" rx="0" fill="#FFFFFF" stroke="#059669" stroke-width="1.5"/>
+<rect x="1420.0" y="892.0" width="400.0" height="54.0" rx="0" fill="#ECFDF5" stroke="#059669" stroke-width="1.5"/>
+<text xml:space="preserve" x="1620.0" y="911.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#64748B" text-anchor="middle" font-style="italic">«pydantic»</text>
+<text xml:space="preserve" x="1570.6" y="932.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#0F172A" text-anchor="start">Warning</text>
+<text xml:space="preserve" x="1637.5" y="932.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#B45309" text-anchor="start">‹1.8›</text>
+<text xml:space="preserve" x="1432.0" y="967.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ kind: WarningKind</text>
+<text xml:space="preserve" x="1432.0" y="986.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ date: date</text>
+<text xml:space="preserve" x="1432.0" y="1005.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ task_id: str | None</text>
+<text xml:space="preserve" x="1432.0" y="1024.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ message: str  # built by code</text>
+<path d="M240.0,892.0 L240.0,816.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#open)"/>
+<text xml:space="preserve" x="248.0" y="868.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#334155" text-anchor="start">task_id</text>
+<text xml:space="preserve" x="248.0" y="834.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#334155" text-anchor="start">0..1</text>
+<path d="M440.0,982.0 L500.0,982.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#diaf)"/>
+<text xml:space="preserve" x="446.0" y="974.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" font-weight="400" fill="#334155" text-anchor="start">1..*</text>
+<rect x="40.0" y="1164.0" width="400.0" height="336.0" rx="0" fill="#FFFFFF" stroke="#475569" stroke-width="1.5"/>
+<rect x="40.0" y="1164.0" width="400.0" height="42.0" rx="0" fill="#F1F5F9" stroke="#475569" stroke-width="1.5"/>
+<text xml:space="preserve" x="218.2" y="1191.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#0F172A" text-anchor="start">Store</text>
+<text xml:space="preserve" x="52.0" y="1227.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">- db: sqlite3.Connection  # WAL</text>
+<text xml:space="preserve" x="52.0" y="1246.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">- user_version: int  # migrations</text>
+<path d="M40.0,1258.0 L440.0,1258.0" fill="none" stroke="#475569" stroke-width="1.2" stroke-linejoin="round"/>
+<text xml:space="preserve" x="52.0" y="1279.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ upsert_task(t, now): list[Change]</text>
+<text xml:space="preserve" x="52.0" y="1298.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ mark_missing(id, now): Change</text>
+<text xml:space="preserve" x="294.4" y="1298.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#B45309" text-anchor="start">‹1.3›</text>
+<text xml:space="preserve" x="52.0" y="1317.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ set_auto_estimate(id, minutes)</text>
+<text xml:space="preserve" x="302.0" y="1317.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#B45309" text-anchor="start">‹1.4›</text>
+<text xml:space="preserve" x="52.0" y="1336.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ add_override(id, minutes): str</text>
+<text xml:space="preserve" x="302.0" y="1336.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#B45309" text-anchor="start">‹D5›</text>
+<text xml:space="preserve" x="52.0" y="1355.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ get_tasks(): list[Task]</text>
+<text xml:space="preserve" x="52.0" y="1374.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ replace_events(events)</text>
+<text xml:space="preserve" x="52.0" y="1393.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ get_events(): list[Event]</text>
+<text xml:space="preserve" x="52.0" y="1412.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ save_plan(plan) / get_plan(date)</text>
+<text xml:space="preserve" x="317.2" y="1412.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#B45309" text-anchor="start">‹1.7›</text>
+<text xml:space="preserve" x="52.0" y="1431.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ add_progress(id, min, note): str</text>
+<text xml:space="preserve" x="317.2" y="1431.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#B45309" text-anchor="start">‹2.3›</text>
+<text xml:space="preserve" x="52.0" y="1450.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ upsert_job(job): bool</text>
+<text xml:space="preserve" x="233.4" y="1450.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#B45309" text-anchor="start">‹2.4›</text>
+<text xml:space="preserve" x="52.0" y="1469.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ log_run(workflow, started, status)</text>
+<text xml:space="preserve" x="52.0" y="1488.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ backup_to(path)</text>
+<text xml:space="preserve" x="187.6" y="1488.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#B45309" text-anchor="start">‹D2›</text>
+<rect x="500.0" y="1164.0" width="400.0" height="196.0" rx="0" fill="#FFFFFF" stroke="#EA580C" stroke-width="1.5"/>
+<rect x="500.0" y="1164.0" width="400.0" height="54.0" rx="0" fill="#FFF7ED" stroke="#EA580C" stroke-width="1.5"/>
+<text xml:space="preserve" x="700.0" y="1183.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#64748B" text-anchor="middle" font-style="italic">«module»</text>
+<text xml:space="preserve" x="664.8" y="1204.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#0F172A" text-anchor="start">llm</text>
+<text xml:space="preserve" x="696.9" y="1204.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#B45309" text-anchor="start">‹1.13›</text>
+<text xml:space="preserve" x="512.0" y="1239.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">PRICES: dict[str, Price]</text>
+<text xml:space="preserve" x="512.0" y="1258.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">client: Anthropic  # injectable</text>
+<path d="M500.0,1270.0 L900.0,1270.0" fill="none" stroke="#EA580C" stroke-width="1.2" stroke-linejoin="round"/>
+<text xml:space="preserve" x="512.0" y="1291.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ call(agent, system, prompt,</text>
+<text xml:space="preserve" x="512.0" y="1310.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">       schema=None, tools=None)</text>
+<text xml:space="preserve" x="512.0" y="1329.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">    → str | BaseModel</text>
+<text xml:space="preserve" x="512.0" y="1348.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">raises LLMError, BudgetExceeded</text>
+<rect x="960.0" y="1164.0" width="400.0" height="139.0" rx="0" fill="#FFFFFF" stroke="#DC2626" stroke-width="1.5"/>
+<rect x="960.0" y="1164.0" width="400.0" height="54.0" rx="0" fill="#FEF2F2" stroke="#DC2626" stroke-width="1.5"/>
+<text xml:space="preserve" x="1160.0" y="1183.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#64748B" text-anchor="middle" font-style="italic">«module»</text>
+<text xml:space="preserve" x="1126.8" y="1204.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#0F172A" text-anchor="start">gate</text>
+<text xml:space="preserve" x="1167.6" y="1204.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#B45309" text-anchor="start">‹D6›</text>
+<text xml:space="preserve" x="972.0" y="1239.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">modes: dict[str, GateMode]</text>
+<path d="M960.0,1251.0 L1360.0,1251.0" fill="none" stroke="#DC2626" stroke-width="1.2" stroke-linejoin="round"/>
+<text xml:space="preserve" x="972.0" y="1272.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ run(feature, description, action)</text>
+<text xml:space="preserve" x="972.0" y="1291.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">  # dry_run prints, on runs + audit row</text>
+<rect x="1420.0" y="1164.0" width="400.0" height="201.0" rx="0" fill="#FFFFFF" stroke="#0D9488" stroke-width="1.5"/>
+<rect x="1420.0" y="1164.0" width="400.0" height="54.0" rx="0" fill="#F0FDFA" stroke="#0D9488" stroke-width="1.5"/>
+<text xml:space="preserve" x="1620.0" y="1183.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#64748B" text-anchor="middle" font-style="italic">«pydantic»</text>
+<text xml:space="preserve" x="1561.9" y="1204.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#0F172A" text-anchor="start">BriefData</text>
+<text xml:space="preserve" x="1646.2" y="1204.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#B45309" text-anchor="start">‹1.9›</text>
+<text xml:space="preserve" x="1432.0" y="1239.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ date: date</text>
+<text xml:space="preserve" x="1432.0" y="1258.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ plan: DayPlan</text>
+<text xml:space="preserve" x="1432.0" y="1277.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ due_soon: list[Task]</text>
+<text xml:space="preserve" x="1432.0" y="1296.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ changes: list[Change]</text>
+<text xml:space="preserve" x="1432.0" y="1315.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ warnings: list[Warning]</text>
+<text xml:space="preserve" x="1432.0" y="1334.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ jobs: list[Job]</text>
+<text xml:space="preserve" x="1567.6" y="1334.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" fill="#B45309" text-anchor="start">‹2.9›</text>
+<text xml:space="preserve" x="1432.0" y="1353.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">+ source_errors: list[str]</text>
+<path d="M500.0,1234.0 L440.0,1234.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" stroke-dasharray="6 4" marker-end="url(#open)"/>
+<text xml:space="preserve" x="470.0" y="1226.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#64748B" text-anchor="middle" font-style="italic">«logs»</text>
+<rect x="500.0" y="1400.0" width="190.0" height="144.0" rx="0" fill="#FFFFFF" stroke="#475569" stroke-width="1.4"/>
+<rect x="500.0" y="1400.0" width="190.0" height="54.0" rx="0" fill="#F8FAFC" stroke="#475569" stroke-width="1.4"/>
+<text xml:space="preserve" x="595.0" y="1419.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#64748B" text-anchor="middle" font-style="italic">«enumeration»</text>
+<text xml:space="preserve" x="595.0" y="1440.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="middle">BlockKind</text>
+<text xml:space="preserve" x="512.0" y="1475.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">fixed</text>
+<text xml:space="preserve" x="512.0" y="1494.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">protected</text>
+<text xml:space="preserve" x="512.0" y="1513.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">study</text>
+<text xml:space="preserve" x="512.0" y="1532.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">break</text>
+<rect x="710.0" y="1400.0" width="190.0" height="106.0" rx="0" fill="#FFFFFF" stroke="#475569" stroke-width="1.4"/>
+<rect x="710.0" y="1400.0" width="190.0" height="54.0" rx="0" fill="#F8FAFC" stroke="#475569" stroke-width="1.4"/>
+<text xml:space="preserve" x="805.0" y="1419.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#64748B" text-anchor="middle" font-style="italic">«enumeration»</text>
+<text xml:space="preserve" x="805.0" y="1440.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="middle">EventKind</text>
+<text xml:space="preserve" x="722.0" y="1475.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">fixed</text>
+<text xml:space="preserve" x="722.0" y="1494.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">protected</text>
+<rect x="960.0" y="1343.0" width="190.0" height="125.0" rx="0" fill="#FFFFFF" stroke="#475569" stroke-width="1.4"/>
+<rect x="960.0" y="1343.0" width="190.0" height="54.0" rx="0" fill="#F8FAFC" stroke="#475569" stroke-width="1.4"/>
+<text xml:space="preserve" x="1055.0" y="1362.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#64748B" text-anchor="middle" font-style="italic">«enumeration»</text>
+<text xml:space="preserve" x="1055.0" y="1383.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="middle">GateMode</text>
+<text xml:space="preserve" x="972.0" y="1418.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">off</text>
+<text xml:space="preserve" x="972.0" y="1437.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">dry_run</text>
+<text xml:space="preserve" x="972.0" y="1456.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">on</text>
+<rect x="1420.0" y="1405.0" width="400.0" height="144.0" rx="0" fill="#FFFFFF" stroke="#475569" stroke-width="1.4"/>
+<rect x="1420.0" y="1405.0" width="400.0" height="54.0" rx="0" fill="#F8FAFC" stroke="#475569" stroke-width="1.4"/>
+<text xml:space="preserve" x="1620.0" y="1424.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#64748B" text-anchor="middle" font-style="italic">«enumeration»</text>
+<text xml:space="preserve" x="1620.0" y="1445.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#0F172A" text-anchor="middle">WarningKind</text>
+<text xml:space="preserve" x="1432.0" y="1480.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">overloaded_day</text>
+<text xml:space="preserve" x="1432.0" y="1499.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">cannot_finish</text>
+<text xml:space="preserve" x="1432.0" y="1518.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">overdue</text>
+<text xml:space="preserve" x="1432.0" y="1537.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12.5" font-weight="400" fill="#0F172A" text-anchor="start">missing</text>
+</svg>

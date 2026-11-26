@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1784" viewBox="0 0 1920 1784" role="img" aria-label="Compass morning run, UML sequence diagram">
+<title>Compass morning run, UML sequence diagram</title>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="10" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#334155"/></marker>
+<marker id="open" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto"><path d="M1,1 L11,6 L1,11" fill="none" stroke="#334155" stroke-width="1.4"/></marker>
+<marker id="tri" viewBox="0 0 16 16" refX="15" refY="8" markerWidth="16" markerHeight="16" markerUnits="userSpaceOnUse" orient="auto"><path d="M1,1 L15,8 L1,15 z" fill="#FFFFFF" stroke="#334155" stroke-width="1.4"/></marker>
+<marker id="dia" viewBox="0 0 20 12" refX="19" refY="6" markerWidth="20" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto"><path d="M1,6 L10,1 L19,6 L10,11 z" fill="#FFFFFF" stroke="#334155" stroke-width="1.4"/></marker>
+<marker id="diaf" viewBox="0 0 20 12" refX="19" refY="6" markerWidth="20" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto"><path d="M1,6 L10,1 L19,6 L10,11 z" fill="#334155" stroke="#334155" stroke-width="1.4"/></marker>
+</defs>
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<text xml:space="preserve" x="40.0" y="52.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#0F172A" text-anchor="start">Compass · morning run (UML sequence)</text>
+<text xml:space="preserve" x="40.0" y="80.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#64748B" text-anchor="start">compass brief, from fetch to saved brief. Numbers are message order. Dashed arrows are returns. A source that raises comes back as SourceResult.error.</text>
+<rect x="400.0" y="254.0" width="430.0" height="106.0" rx="4" fill="#FAFBFD" stroke="#94A3B8" stroke-width="1.2"/>
+<rect x="414.0" y="410.0" width="807.0" height="246.0" rx="4" fill="#FAFBFD" stroke="#94A3B8" stroke-width="1.2"/>
+<rect x="400.0" y="374.0" width="835.0" height="298.0" rx="4" fill="#FAFBFD" stroke="#94A3B8" stroke-width="1.2"/>
+<rect x="400.0" y="1128.0" width="1495.0" height="416.0" rx="4" fill="#FAFBFD" stroke="#94A3B8" stroke-width="1.2"/>
+<path d="M90.0,162.0 L90.0,1754.0" fill="none" stroke="#94A3B8" stroke-width="1.1" stroke-linejoin="round" stroke-dasharray="6 4"/>
+<path d="M265.0,162.0 L265.0,1754.0" fill="none" stroke="#94A3B8" stroke-width="1.1" stroke-linejoin="round" stroke-dasharray="6 4"/>
+<path d="M480.0,162.0 L480.0,1754.0" fill="none" stroke="#94A3B8" stroke-width="1.1" stroke-linejoin="round" stroke-dasharray="6 4"/>
+<path d="M735.0,162.0 L735.0,1754.0" fill="none" stroke="#94A3B8" stroke-width="1.1" stroke-linejoin="round" stroke-dasharray="6 4"/>
+<path d="M950.0,162.0 L950.0,1754.0" fill="none" stroke="#94A3B8" stroke-width="1.1" stroke-linejoin="round" stroke-dasharray="6 4"/>
+<path d="M1140.0,162.0 L1140.0,1754.0" fill="none" stroke="#94A3B8" stroke-width="1.1" stroke-linejoin="round" stroke-dasharray="6 4"/>
+<path d="M1315.0,162.0 L1315.0,1754.0" fill="none" stroke="#94A3B8" stroke-width="1.1" stroke-linejoin="round" stroke-dasharray="6 4"/>
+<path d="M1485.0,162.0 L1485.0,1754.0" fill="none" stroke="#94A3B8" stroke-width="1.1" stroke-linejoin="round" stroke-dasharray="6 4"/>
+<path d="M1665.0,162.0 L1665.0,1754.0" fill="none" stroke="#94A3B8" stroke-width="1.1" stroke-linejoin="round" stroke-dasharray="6 4"/>
+<path d="M1825.0,162.0 L1825.0,1754.0" fill="none" stroke="#94A3B8" stroke-width="1.1" stroke-linejoin="round" stroke-dasharray="6 4"/>
+<rect x="259.0" y="192.0" width="12.0" height="1532.0" rx="1" fill="#EEF2FF" stroke="#4F46E5" stroke-width="1.2"/>
+<rect x="474.0" y="236.0" width="12.0" height="1448.0" rx="1" fill="#F5F3FF" stroke="#7C3AED" stroke-width="1.2"/>
+<path d="M400,254 h42.879999999999995 v14 l-8,8 h-34.879999999999995 z" fill="#E2E8F0" stroke="#94A3B8" stroke-width="1.2"/>
+<text xml:space="preserve" x="408.0" y="269.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#0F172A" text-anchor="start">par</text>
+<text xml:space="preserve" x="496.0" y="269.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#334155" text-anchor="start" font-style="italic">[each source · thread pool]</text>
+<path d="M414,410 h42.879999999999995 v14 l-8,8 h-34.879999999999995 z" fill="#E2E8F0" stroke="#94A3B8" stroke-width="1.2"/>
+<text xml:space="preserve" x="422.0" y="425.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#0F172A" text-anchor="start">alt</text>
+<text xml:space="preserve" x="496.0" y="425.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#334155" text-anchor="start" font-style="italic">[error == ""]</text>
+<path d="M414.0,584.0 L1221.0,584.0" fill="none" stroke="#94A3B8" stroke-width="1.2" stroke-linejoin="round" stroke-dasharray="6 4"/>
+<text xml:space="preserve" x="496.0" y="599.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#334155" text-anchor="start" font-style="italic">[error] skip the merge (D3)</text>
+<path d="M400,374 h49.839999999999996 v14 l-8,8 h-41.839999999999996 z" fill="#E2E8F0" stroke="#94A3B8" stroke-width="1.2"/>
+<text xml:space="preserve" x="408.0" y="389.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#0F172A" text-anchor="start">loop</text>
+<text xml:space="preserve" x="496.0" y="389.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#334155" text-anchor="start" font-style="italic">[each result · main thread]</text>
+<path d="M400,1128 h42.879999999999995 v14 l-8,8 h-34.879999999999995 z" fill="#E2E8F0" stroke="#94A3B8" stroke-width="1.2"/>
+<text xml:space="preserve" x="408.0" y="1143.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#0F172A" text-anchor="start">alt</text>
+<text xml:space="preserve" x="496.0" y="1143.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#334155" text-anchor="start" font-style="italic">[within budget]</text>
+<path d="M400.0,1384.0 L1895.0,1384.0" fill="none" stroke="#94A3B8" stroke-width="1.2" stroke-linejoin="round" stroke-dasharray="6 4"/>
+<text xml:space="preserve" x="496.0" y="1399.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#334155" text-anchor="start" font-style="italic">[BudgetExceeded or LLMError]</text>
+<circle cx="90" cy="118" r="7" fill="#FFFFFF" stroke="#0F172A" stroke-width="1.5"/>
+<path d="M90.0,125.0 L90.0,142.0" fill="none" stroke="#0F172A" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M79.0,131.0 L101.0,131.0" fill="none" stroke="#0F172A" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M81.0,154.0 L90.0,142.0 L99.0,154.0" fill="none" stroke="#0F172A" stroke-width="1.5" stroke-linejoin="round"/>
+<text xml:space="preserve" x="90.0" y="170.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#334155" text-anchor="middle">Scheduler · you or cron</text>
+<rect x="190.0" y="110.0" width="150.0" height="52.0" rx="6" fill="#EEF2FF" stroke="#4F46E5" stroke-width="1.5"/>
+<text xml:space="preserve" x="265.0" y="132.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="13.5" font-weight="700" fill="#0F172A" text-anchor="middle">cli.py</text>
+<text xml:space="preserve" x="265.0" y="150.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#64748B" text-anchor="middle">entry point</text>
+<rect x="405.0" y="110.0" width="150.0" height="52.0" rx="6" fill="#F5F3FF" stroke="#7C3AED" stroke-width="1.5"/>
+<text xml:space="preserve" x="480.0" y="132.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="13.5" font-weight="700" fill="#0F172A" text-anchor="middle">orchestrator</text>
+<text xml:space="preserve" x="480.0" y="150.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#64748B" text-anchor="middle">morning()</text>
+<rect x="660.0" y="110.0" width="150.0" height="52.0" rx="6" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.5"/>
+<text xml:space="preserve" x="735.0" y="132.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="13.5" font-weight="700" fill="#0F172A" text-anchor="middle">Source × N</text>
+<text xml:space="preserve" x="735.0" y="150.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#64748B" text-anchor="middle">connectors/</text>
+<rect x="875.0" y="110.0" width="150.0" height="52.0" rx="6" fill="#ECFDF5" stroke="#059669" stroke-width="1.5"/>
+<text xml:space="preserve" x="950.0" y="132.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="13.5" font-weight="700" fill="#0F172A" text-anchor="middle">engine/</text>
+<text xml:space="preserve" x="950.0" y="150.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#64748B" text-anchor="middle">pure logic</text>
+<rect x="1065.0" y="110.0" width="150.0" height="52.0" rx="6" fill="#F1F5F9" stroke="#475569" stroke-width="1.5"/>
+<text xml:space="preserve" x="1140.0" y="132.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="13.5" font-weight="700" fill="#0F172A" text-anchor="middle">Store</text>
+<text xml:space="preserve" x="1140.0" y="150.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#64748B" text-anchor="middle">compass.db</text>
+<rect x="1240.0" y="110.0" width="150.0" height="52.0" rx="6" fill="#F0FDFA" stroke="#0D9488" stroke-width="1.5"/>
+<text xml:space="preserve" x="1315.0" y="132.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="13.5" font-weight="700" fill="#0F172A" text-anchor="middle">outputs/brief</text>
+<text xml:space="preserve" x="1315.0" y="150.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#64748B" text-anchor="middle">+ views.py</text>
+<rect x="1410.0" y="110.0" width="150.0" height="52.0" rx="6" fill="#FFF7ED" stroke="#EA580C" stroke-width="1.5"/>
+<text xml:space="preserve" x="1485.0" y="132.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="13.5" font-weight="700" fill="#0F172A" text-anchor="middle">writer</text>
+<text xml:space="preserve" x="1485.0" y="150.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#64748B" text-anchor="middle">agents/</text>
+<rect x="1590.0" y="110.0" width="150.0" height="52.0" rx="6" fill="#FFF7ED" stroke="#EA580C" stroke-width="1.5"/>
+<text xml:space="preserve" x="1665.0" y="132.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="13.5" font-weight="700" fill="#0F172A" text-anchor="middle">llm.py</text>
+<text xml:space="preserve" x="1665.0" y="150.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#64748B" text-anchor="middle">agents/</text>
+<rect x="1750.0" y="110.0" width="150.0" height="52.0" rx="6" fill="#FFF7ED" stroke="#C2410C" stroke-width="1.5"/>
+<text xml:space="preserve" x="1825.0" y="132.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="13.5" font-weight="700" fill="#0F172A" text-anchor="middle">Claude API</text>
+<text xml:space="preserve" x="1825.0" y="150.0" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#64748B" text-anchor="middle">Anthropic</text>
+<path d="M90.0,206.0 L259.0,206.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text xml:space="preserve" x="174.5" y="199.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#0F172A" text-anchor="middle" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round" paint-order="stroke">1. compass brief</text>
+<path d="M271.0,240.0 L474.0,240.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text xml:space="preserve" x="372.5" y="233.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#0F172A" text-anchor="middle" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round" paint-order="stroke">2. morning(sources, now)</text>
+<path d="M486.0,310.0 L735.0,310.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text xml:space="preserve" x="610.5" y="303.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#0F172A" text-anchor="middle" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round" paint-order="stroke">3. fetch(start, end)</text>
+<path d="M735.0,344.0 L486.0,344.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" stroke-dasharray="6 4" marker-end="url(#open)"/>
+<text xml:space="preserve" x="610.5" y="337.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#334155" text-anchor="middle" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round" paint-order="stroke">4. SourceResult</text>
+<path d="M486.0,466.0 L950.0,466.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text xml:space="preserve" x="718.0" y="459.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#0F172A" text-anchor="middle" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round" paint-order="stroke">5. merge_tasks(store, source, tasks, now)</text>
+<path d="M950.0,500.0 L1140.0,500.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text xml:space="preserve" x="1045.0" y="493.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#0F172A" text-anchor="middle" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round" paint-order="stroke">6. upsert / mark_missing</text>
+<path d="M1140.0,534.0 L950.0,534.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" stroke-dasharray="6 4" marker-end="url(#open)"/>
+<text xml:space="preserve" x="1045.0" y="527.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#334155" text-anchor="middle" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round" paint-order="stroke">7. list[Change]</text>
+<path d="M950.0,568.0 L486.0,568.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" stroke-dasharray="6 4" marker-end="url(#open)"/>
+<text xml:space="preserve" x="718.0" y="561.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#334155" text-anchor="middle" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round" paint-order="stroke">8. changes</text>
+<path d="M486.0,622.0 L520.0,622.0 L520.0,640.0 L486.0,640.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text xml:space="preserve" x="528.0" y="635.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#0F172A" text-anchor="start" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round" paint-order="stroke">9. record source error</text>
+<path d="M486.0,706.0 L950.0,706.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text xml:space="preserve" x="718.0" y="699.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#0F172A" text-anchor="middle" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round" paint-order="stroke">10. apply_estimates(store)</text>
+<path d="M486.0,740.0 L1140.0,740.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text xml:space="preserve" x="813.0" y="733.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#0F172A" text-anchor="middle" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round" paint-order="stroke">11. get_tasks(), get_events()</text>
+<path d="M1140.0,774.0 L486.0,774.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" stroke-dasharray="6 4" marker-end="url(#open)"/>
+<text xml:space="preserve" x="813.0" y="767.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#334155" text-anchor="middle" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round" paint-order="stroke">12. tasks, events</text>
+<path d="M486.0,808.0 L950.0,808.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text xml:space="preserve" x="718.0" y="801.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#0F172A" text-anchor="middle" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round" paint-order="stroke">13. rank → free_gaps → plan_day(day, tasks, events, now)</text>
+<path d="M950.0,842.0 L486.0,842.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" stroke-dasharray="6 4" marker-end="url(#open)"/>
+<text xml:space="preserve" x="718.0" y="835.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#334155" text-anchor="middle" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round" paint-order="stroke">14. DayPlan</text>
+<path d="M486.0,876.0 L1140.0,876.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text xml:space="preserve" x="813.0" y="869.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#0F172A" text-anchor="middle" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round" paint-order="stroke">15. save_plan(plan)</text>
+<path d="M486.0,910.0 L950.0,910.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text xml:space="preserve" x="718.0" y="903.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#0F172A" text-anchor="middle" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round" paint-order="stroke">16. warnings.check(tasks, events, now)</text>
+<path d="M950.0,944.0 L486.0,944.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" stroke-dasharray="6 4" marker-end="url(#open)"/>
+<text xml:space="preserve" x="718.0" y="937.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#334155" text-anchor="middle" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round" paint-order="stroke">17. list[Warning]</text>
+<path d="M486.0,978.0 L1315.0,978.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text xml:space="preserve" x="900.5" y="971.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#0F172A" text-anchor="middle" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round" paint-order="stroke">18. build BriefData (views)</text>
+<path d="M1315.0,1012.0 L486.0,1012.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" stroke-dasharray="6 4" marker-end="url(#open)"/>
+<text xml:space="preserve" x="900.5" y="1005.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#334155" text-anchor="middle" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round" paint-order="stroke">19. BriefData</text>
+<path d="M486.0,1046.0 L1485.0,1046.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text xml:space="preserve" x="985.5" y="1039.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#0F172A" text-anchor="middle" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round" paint-order="stroke">20. write_brief(data)</text>
+<path d="M1485.0,1080.0 L1665.0,1080.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text xml:space="preserve" x="1575.0" y="1073.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#0F172A" text-anchor="middle" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round" paint-order="stroke">21. call("writer", …)</text>
+<path d="M1665.0,1114.0 L1140.0,1114.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text xml:space="preserve" x="1402.5" y="1107.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#0F172A" text-anchor="middle" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round" paint-order="stroke">22. budget check · llm_calls today</text>
+<path d="M1665.0,1184.0 L1825.0,1184.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text xml:space="preserve" x="1745.0" y="1177.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#0F172A" text-anchor="middle" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round" paint-order="stroke">23. messages.create</text>
+<path d="M1825.0,1218.0 L1665.0,1218.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" stroke-dasharray="6 4" marker-end="url(#open)"/>
+<text xml:space="preserve" x="1745.0" y="1211.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#334155" text-anchor="middle" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round" paint-order="stroke">24. text, usage</text>
+<path d="M1665.0,1252.0 L1140.0,1252.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text xml:space="preserve" x="1402.5" y="1245.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#0F172A" text-anchor="middle" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round" paint-order="stroke">25. insert llm_calls row</text>
+<path d="M1665.0,1286.0 L1485.0,1286.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" stroke-dasharray="6 4" marker-end="url(#open)"/>
+<text xml:space="preserve" x="1575.0" y="1279.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#334155" text-anchor="middle" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round" paint-order="stroke">26. text</text>
+<path d="M1485.0,1316.0 L1519.0,1316.0 L1519.0,1334.0 L1485.0,1334.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text xml:space="preserve" x="1527.0" y="1329.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#0F172A" text-anchor="start" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round" paint-order="stroke">27. check titles</text>
+<path d="M1485.0,1368.0 L486.0,1368.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" stroke-dasharray="6 4" marker-end="url(#open)"/>
+<text xml:space="preserve" x="985.5" y="1361.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#334155" text-anchor="middle" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round" paint-order="stroke">28. brief text (+ Also due)</text>
+<path d="M1665.0,1426.0 L1485.0,1426.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" stroke-dasharray="6 4" marker-end="url(#open)"/>
+<text xml:space="preserve" x="1575.0" y="1419.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#334155" text-anchor="middle" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round" paint-order="stroke">29. raise</text>
+<path d="M1485.0,1460.0 L486.0,1460.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" stroke-dasharray="6 4" marker-end="url(#open)"/>
+<text xml:space="preserve" x="985.5" y="1453.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#334155" text-anchor="middle" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round" paint-order="stroke">30. error</text>
+<path d="M486.0,1494.0 L1315.0,1494.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text xml:space="preserve" x="900.5" y="1487.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#0F172A" text-anchor="middle" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round" paint-order="stroke">31. render_template(data)</text>
+<path d="M1315.0,1528.0 L486.0,1528.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" stroke-dasharray="6 4" marker-end="url(#open)"/>
+<text xml:space="preserve" x="900.5" y="1521.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#334155" text-anchor="middle" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round" paint-order="stroke">32. brief text</text>
+<path d="M486.0,1578.0 L1315.0,1578.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text xml:space="preserve" x="900.5" y="1571.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#0F172A" text-anchor="middle" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round" paint-order="stroke">33. save_brief(text, date)</text>
+<path d="M1315.0,1612.0 L486.0,1612.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" stroke-dasharray="6 4" marker-end="url(#open)"/>
+<text xml:space="preserve" x="900.5" y="1605.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#334155" text-anchor="middle" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round" paint-order="stroke">34. Path  briefs/YYYY-MM-DD.md</text>
+<path d="M486.0,1646.0 L1140.0,1646.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text xml:space="preserve" x="813.0" y="1639.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#0F172A" text-anchor="middle" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round" paint-order="stroke">35. log_run("morning", started, status)</text>
+<path d="M474.0,1680.0 L271.0,1680.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" stroke-dasharray="6 4" marker-end="url(#open)"/>
+<text xml:space="preserve" x="372.5" y="1673.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#334155" text-anchor="middle" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round" paint-order="stroke">36. Path</text>
+<path d="M259.0,1714.0 L90.0,1714.0" fill="none" stroke="#334155" stroke-width="1.4" stroke-linejoin="round" stroke-dasharray="6 4" marker-end="url(#open)"/>
+<text xml:space="preserve" x="174.5" y="1707.0" font-family="'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="400" fill="#334155" text-anchor="middle" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round" paint-order="stroke">37. print saved path</text>
+</svg>

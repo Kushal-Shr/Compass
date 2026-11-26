@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/context-check.sh",
+            "timeout": 30,
+            "statusMessage": "Checking CONTEXT.md is current"
+          }
+        ]
+      }
+    ]
+  }
+}

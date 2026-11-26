@@ -62,7 +62,7 @@ Dependencies point one way: down this table. A module may import from rows below
 | Data in | `connectors/` | Fetch, page through results, convert to local time, map to models | models, config, `requests`, `agents/llm.py` (only `jobs_web` and alert parsing) | touch the store, read env or `config.yaml` |
 | Logic | `engine/` | Dates, slots, scores, filters, grades | models, config | do I/O, call `datetime.now()`, call Claude |
 | Persistence | `store.py` | SQLite schema, migrations, typed reads and writes | models | contain rules beyond change detection |
-| Base | `models.py`, `config.py`, `demo.py` | Pydantic models, settings, fake data | stdlib, pydantic | anything in `compass` above them |
+| Base | `models.py`, `config.py`, `demo.py` | Pydantic models, settings, fake data | stdlib, pydantic (plus pyyaml and python-dotenv in `config.py` only) | anything in `compass` above them |
 
 The one deliberate exception is `engine/merge.py`, which takes a `Store`, because merging is a store operation. Keep it the only one.
 

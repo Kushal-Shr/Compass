@@ -3,11 +3,12 @@
 This file is loaded at the start of every chat through `CLAUDE.md`, so new chats don't need to re-review the repo. Trust it for orientation. Read the files it names only when the task needs them. Keep it short and current. When a step is finished, update **Status** and anything else that changed.
 
 ## Status (updated 2026-11-25)
-- **Built:** the phase 0 skeleton only. `compass/models.py`, `compass/store.py`, empty package folders, `tests/test_store.py` (4 tests, passing).
-- **Ticked steps:** 0.1 and 0.2, so **phase 0 is done**. Next up is **step 1.1** (config). Leftovers from 0.2: the Outlook sign-in test (before phase 5); confirming Claude Desktop is installed (before phase 2).
+- **Built:** phase 0 skeleton (`compass/models.py`, `compass/store.py`, empty package folders) and `compass/config.py` (step 1.1). Tests: `test_store.py` (4) and `test_config.py` (10), all passing.
+- **Ticked steps:** phase 0 (0.1, 0.2) and 1.1. Next up is **step 1.2** (demo data). Leftovers from 0.2: the Outlook sign-in test (before phase 5); confirming Claude Desktop is installed (before phase 2).
+- **Config:** `load_config()` returns a frozen `Config` that rejects unknown keys (`extra="forbid"`), so new `config.yaml` sections such as `budgets:` need a model field first. Times must be quoted `"HH:MM"`, because PyYAML reads an unquoted `18:00` as the number 1080. `load_env(path, environ=None)` reads `.env`, and real environment variables override it (needed for Actions). `Secrets.canvas_token` and `anthropic_api_key` are `SecretStr`, read with `.get_secret_value()`.
 - **Repo is public** by the user's choice (2026-11-25). Everything tracked, including `config.yaml` and commit author emails, is visible.
-- **Secrets guard:** gitleaks runs as a `pre-commit` hook (`.pre-commit-config.yaml`, gitleaks v8.30.0). Each new clone needs `.venv/bin/pre-commit install`.
-- **Not built yet:** `compass/config.py`, `compass/cli.py` (the `compass` entry point in `pyproject.toml` doesn't work yet), every connector, engine, agent and output module.
+- **Secrets guard:** gitleaks runs as a `pre-commit` hook (`.pre-commit-config.yaml`, gitleaks v8.30.0). Each new clone needs `.venv/bin/pre-commit install`. Fake secrets in tests and fixtures must look non-random (e.g. `"fakefakefakefake"`), or gitleaks' generic-api-key rule blocks the commit.
+- **Not built yet:** `compass/cli.py` (the `compass` entry point in `pyproject.toml` doesn't work yet), every connector, engine, agent and output module.
 - **Docs:** `docs/architecture.md` (layers, contracts, data ownership, decisions D1–D7). There are three SVG diagrams in `docs/diagrams/`: system design, UML class, and the morning-run sequence.
 - **Environment:** `.venv` runs Python 3.14, but the convention and CI target 3.12.
 

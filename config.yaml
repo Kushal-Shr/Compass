@@ -1,3 +1,6 @@
+# Every time in this file is wall-clock time in this zone. Times must be quoted: "08:00".
+timezone: America/Chicago
+
 day_window:
   start: "08:00"
   end: "23:00"

@@ -5,6 +5,7 @@ credentials.json
 .venv/
 __pycache__/
 .pytest_cache/
+*.egg-info/
 briefs/
 .DS_Store
 
@@ -15,3 +16,8 @@ PLAN.md
 
 # Google OAuth client
 client_secret_*.json
+
+# Personal data and course files
+profile.yaml
+courses/
+tailored/

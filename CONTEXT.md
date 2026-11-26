@@ -4,7 +4,8 @@ This file is loaded at the start of every chat through `CLAUDE.md`, so new chats
 
 ## Status (updated 2026-11-25)
 - **Built:** the phase 0 skeleton only. `compass/models.py`, `compass/store.py`, empty package folders, `tests/test_store.py` (4 tests, passing).
-- **Ticked steps:** none. **Step 0.1** (protect secrets) is built and verified; it waits only on the user confirming the GitHub repo is Private. Then 0.2 (account checks), then phase 1.
+- **Ticked steps:** 0.1 and 0.2, so **phase 0 is done**. Next up is **step 1.1** (config). Leftovers from 0.2: the Outlook sign-in test (before phase 5); confirming Claude Desktop is installed (before phase 2).
+- **Repo is public** by the user's choice (2026-11-25). Everything tracked, including `config.yaml` and commit author emails, is visible.
 - **Secrets guard:** gitleaks runs as a `pre-commit` hook (`.pre-commit-config.yaml`, gitleaks v8.30.0). Each new clone needs `.venv/bin/pre-commit install`.
 - **Not built yet:** `compass/config.py`, `compass/cli.py` (the `compass` entry point in `pyproject.toml` doesn't work yet), every connector, engine, agent and output module.
 - **Docs:** `docs/architecture.md` (layers, contracts, data ownership, decisions D1–D7). There are three SVG diagrams in `docs/diagrams/`: system design, UML class, and the morning-run sequence.
@@ -50,8 +51,12 @@ The step files in `plan/` don't reflect D1–D7 yet. If a step conflicts with on
 - `Task` has no `missing` field (fix in 1.3). `Event` has no `all_day` field (1.11) or `calendar_id` field (7.2).
 - Step 1.10 uses Canvas `bucket=upcoming`, which may only cover about a week. Check this in 1.10; `bucket=future` may be the right one.
 - The Python 3.14 venv doesn't match the 3.12 convention.
+- The repo is public, so the phase 3 `state` branch (the database on Actions) can't live in it, and public Actions logs and artifacts must never contain personal data. Decide before phase 3: a separate private state repo (recommended) or an encrypted database.
+- The Google OAuth app may be in "Testing" status, where refresh tokens expire after 7 days. That would break unattended runs in phase 3. Check it, or publish the app, before phase 3.
+- `config.yaml` is public and its protected-time titles are personal. A git-ignored local override would fix this if the user wants it.
 
 ## Open questions for the user
 - Accept D1–D7?
-- Which internship roles to target? Needed for step 2.4 and recorded in 0.2.
+- Internship roles are answered (SWE, data, AI/ML, full stack, DevOps; anywhere in the US). Still open for step 2.4: eligibility (internship / co-op / new grad) and visa sponsorship.
+- Where does Actions state live, given the public repo? Needed before phase 3.
 - Which internship season to target after Apr 30, 2027? Needed for step 4.9.

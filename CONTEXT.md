@@ -4,7 +4,8 @@ This file is loaded at the start of every chat through `CLAUDE.md`, so new chats
 
 ## Status (updated 2026-11-25)
 - **Built:** the phase 0 skeleton only. `compass/models.py`, `compass/store.py`, empty package folders, `tests/test_store.py` (4 tests, passing).
-- **Ticked steps:** none. Next up is **step 0.1** (protect secrets), then 0.2 (account checks), then phase 1.
+- **Ticked steps:** none. **Step 0.1** (protect secrets) is built and verified; it waits only on the user confirming the GitHub repo is Private. Then 0.2 (account checks), then phase 1.
+- **Secrets guard:** gitleaks runs as a `pre-commit` hook (`.pre-commit-config.yaml`, gitleaks v8.30.0). Each new clone needs `.venv/bin/pre-commit install`.
 - **Not built yet:** `compass/config.py`, `compass/cli.py` (the `compass` entry point in `pyproject.toml` doesn't work yet), every connector, engine, agent and output module.
 - **Docs:** `docs/architecture.md` (layers, contracts, data ownership, decisions D1–D7). There are three SVG diagrams in `docs/diagrams/`: system design, UML class, and the morning-run sequence.
 - **Environment:** `.venv` runs Python 3.14, but the convention and CI target 3.12.
@@ -18,6 +19,7 @@ This file is loaded at the start of every chat through `CLAUDE.md`, so new chats
 | `plan/phase-N-*/README.md` | Phase checklist | **no** |
 | `plan/phase-N-*/step-NN-*.md` | One feature per file, written as a prompt | **no** |
 | `config.yaml` | Day window, protected time, planner limits, calendars, models | yes |
+| `.pre-commit-config.yaml` | gitleaks secret scan on every commit | yes |
 | `.claude/settings.json`, `.claude/hooks/context-check.sh` | Stop hook that sends Claude back if tracked files changed without a CONTEXT.md update | yes |
 | `PLAN.md` | Just a pointer to `plan/`. Skip it | no |
 | `Compass Project Plan.docx` | The original design, replaced by `plan/`. Skip it | no |

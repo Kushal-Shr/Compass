@@ -7,3 +7,11 @@ __pycache__/
 .pytest_cache/
 briefs/
 .DS_Store
+
+# Private planning docs
+plan/
+PLAN.md
+*.docx
+
+# Google OAuth client
+client_secret_*.json

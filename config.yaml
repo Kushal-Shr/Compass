@@ -1,6 +1,6 @@
 day_window:
   start: "08:00"
-  end: "22:00"
+  end: "23:00"
 
 # Protected time is never used for study blocks.
 protected:

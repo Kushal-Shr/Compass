@@ -41,5 +41,6 @@ def merge_tasks(store: Store, source: str, tasks: list[Task], now: datetime,
     return changes
 
 
-def merge_events(store: Store, events: list[Event]) -> None:
-    store.replace_events(events)
+def merge_events(store: Store, events: list[Event], source: str | None = None) -> None:
+    """Replace stored events: only `source`'s when given (IDs `source:...`), otherwise all."""
+    store.replace_events(events, source=source)

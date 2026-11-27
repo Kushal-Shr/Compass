@@ -181,12 +181,24 @@ class Store:
                 missing=bool(r["missing"])))
         return out
 
-    def replace_events(self, events: list[Event]) -> None:
-        """Calendar is a snapshot: replace all fetched events each run."""
+    def replace_events(self, events: list[Event], source: str | None = None) -> None:
+        """Calendar is a snapshot: replace fetched events each run.
+
+        With `source`, only that source's events (IDs starting `source:`) are replaced, so a
+        failed fetch from one calendar never wipes another's events. Without it, all are.
+        """
+        if source is not None:
+            wrong = [e.id for e in events if not e.id.startswith(f"{source}:")]
+            if wrong:
+                raise ValueError(f"events not from {source!r}: {wrong}")
         rows = [(e.id, e.title, _iso(e.start), _iso(e.end), e.kind, int(e.created_by_agent),
                  int(e.all_day), int(e.busy))
                 for e in events]
-        self.db.execute("DELETE FROM events")
+        if source is None:
+            self.db.execute("DELETE FROM events")
+        else:
+            prefix = f"{source}:"
+            self.db.execute("DELETE FROM events WHERE substr(id, 1, ?) = ?", (len(prefix), prefix))
         self.db.executemany(
             "INSERT INTO events (id, title, start, end, kind, created_by_agent, all_day, busy)"
             " VALUES (?,?,?,?,?,?,?,?)", rows)

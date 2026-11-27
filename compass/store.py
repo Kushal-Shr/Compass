@@ -2,9 +2,9 @@ from __future__ import annotations
 
 import sqlite3
 import uuid
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 
-from .models import Change, Event, Task
+from .models import Block, Change, DayPlan, Event, Task
 
 # Version 0. Never edit: later changes go in MIGRATIONS.
 SCHEMA = """
@@ -52,6 +52,11 @@ MIGRATIONS = [
     """
     ALTER TABLE events ADD COLUMN all_day INTEGER DEFAULT 0;
     ALTER TABLE events ADD COLUMN busy INTEGER DEFAULT 1;
+    """,
+    # 4 (step 1.7): block titles, and the tasks a plan couldn't fit, so a plan round-trips.
+    """
+    ALTER TABLE plans ADD COLUMN title TEXT DEFAULT '';
+    CREATE TABLE plan_unplaced (date TEXT NOT NULL, position INTEGER NOT NULL, task_id TEXT NOT NULL);
     """,
 ]
 
@@ -197,6 +202,33 @@ class Store:
         return [Change(entity_id=r["entity_id"], field=r["field"], old=r["old"], new=r["new"],
                        detected_at=_dt(r["detected_at"]))
                 for r in self.db.execute("SELECT * FROM changes ORDER BY rowid")]
+
+    def save_plan(self, plan: DayPlan) -> None:
+        """Replace the stored plan for `plan.date`."""
+        day = plan.date.isoformat()
+        with self.db:
+            self.db.execute("DELETE FROM plans WHERE date=?", (day,))
+            self.db.execute("DELETE FROM plan_unplaced WHERE date=?", (day,))
+            self.db.executemany(
+                "INSERT INTO plans (date, block_start, block_end, kind, task_id, title)"
+                " VALUES (?,?,?,?,?,?)",
+                [(day, _iso(b.start), _iso(b.end), b.kind, b.task_id, b.title)
+                 for b in plan.blocks])
+            self.db.executemany("INSERT INTO plan_unplaced VALUES (?,?,?)",
+                                [(day, i, task_id) for i, task_id in enumerate(plan.unplaced)])
+
+    def get_plan(self, day: date) -> DayPlan | None:
+        key = day.isoformat()
+        rows = self.db.execute(
+            "SELECT * FROM plans WHERE date=? ORDER BY block_start, rowid", (key,)).fetchall()
+        unplaced = [r["task_id"] for r in self.db.execute(
+            "SELECT task_id FROM plan_unplaced WHERE date=? ORDER BY position", (key,))]
+        if not rows and not unplaced:
+            return None
+        return DayPlan(date=day, unplaced=unplaced, blocks=[
+            Block(start=_dt(r["block_start"]), end=_dt(r["block_end"]), kind=r["kind"],
+                  title=r["title"] or "", task_id=r["task_id"])
+            for r in rows])
 
     def log_run(self, workflow: str, started: datetime, finished: datetime, status: str,
                 errors: str = "") -> None:

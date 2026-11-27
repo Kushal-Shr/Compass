@@ -48,6 +48,11 @@ MIGRATIONS = [
       SELECT lower(hex(randomblob(16))), id, est_override, '1970-01-01T00:00:00+00:00'
       FROM tasks WHERE est_override IS NOT NULL;
     """,
+    # 3 (step 1.6): all-day and free/busy flags on events.
+    """
+    ALTER TABLE events ADD COLUMN all_day INTEGER DEFAULT 0;
+    ALTER TABLE events ADD COLUMN busy INTEGER DEFAULT 1;
+    """,
 ]
 
 # Task fields compared for change detection.
@@ -173,15 +178,19 @@ class Store:
 
     def replace_events(self, events: list[Event]) -> None:
         """Calendar is a snapshot: replace all fetched events each run."""
-        rows = [(e.id, e.title, _iso(e.start), _iso(e.end), e.kind, int(e.created_by_agent))
+        rows = [(e.id, e.title, _iso(e.start), _iso(e.end), e.kind, int(e.created_by_agent),
+                 int(e.all_day), int(e.busy))
                 for e in events]
         self.db.execute("DELETE FROM events")
-        self.db.executemany("INSERT INTO events VALUES (?,?,?,?,?,?)", rows)
+        self.db.executemany(
+            "INSERT INTO events (id, title, start, end, kind, created_by_agent, all_day, busy)"
+            " VALUES (?,?,?,?,?,?,?,?)", rows)
         self.db.commit()
 
     def get_events(self) -> list[Event]:
         return [Event(id=r["id"], title=r["title"], start=_dt(r["start"]), end=_dt(r["end"]),
-                      kind=r["kind"], created_by_agent=bool(r["created_by_agent"]))
+                      kind=r["kind"], created_by_agent=bool(r["created_by_agent"]),
+                      all_day=bool(r["all_day"]), busy=bool(r["busy"]))
                 for r in self.db.execute("SELECT * FROM events")]
 
     def get_changes(self) -> list[Change]:

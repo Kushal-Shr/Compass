@@ -90,3 +90,13 @@ def test_old_database_gets_missing_column(tmp_path):
     assert task.id == "canvas:9" and task.missing is False
     # Opening again doesn't re-run migrations.
     assert Store(str(path)).version == len(MIGRATIONS)
+
+
+def test_event_flags_round_trip():
+    s = Store(":memory:")
+    e = Event(id="gcal:2", title="Trip", start=NOW, end=NOW.replace(day=2, month=12),
+              all_day=True, busy=False)
+    s.replace_events([e])
+    assert s.get_events() == [e]
+    [back] = s.get_events()
+    assert back.all_day is True and back.busy is False

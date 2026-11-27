@@ -1,0 +1,1927 @@
+{
+  "assignments": {
+    "1001": [
+      [
+        {
+          "due_at": null,
+          "html_url": "https://canvas.example.edu/courses/1001/assignments/5001",
+          "id": 5001,
+          "name": "Assignment 5001",
+          "points_possible": 0.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": null,
+            "workflow_state": "unsubmitted"
+          },
+          "submission_types": [
+            "online_text_entry"
+          ]
+        },
+        {
+          "due_at": null,
+          "html_url": "https://canvas.example.edu/courses/1001/assignments/5002",
+          "id": 5002,
+          "name": "Assignment 5002",
+          "points_possible": 0.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": null,
+            "workflow_state": "unsubmitted"
+          },
+          "submission_types": [
+            "online_text_entry",
+            "media_recording",
+            "online_upload"
+          ]
+        },
+        {
+          "due_at": null,
+          "html_url": "https://canvas.example.edu/courses/1001/assignments/5003",
+          "id": 5003,
+          "name": "Assignment 5003",
+          "points_possible": 19.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": "2025-09-03T05:01:34Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_quiz"
+          ]
+        },
+        {
+          "due_at": null,
+          "html_url": "https://canvas.example.edu/courses/1001/assignments/5004",
+          "id": 5004,
+          "name": "Assignment 5004",
+          "points_possible": 11.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": null,
+            "workflow_state": "unsubmitted"
+          },
+          "submission_types": [
+            "online_quiz"
+          ]
+        }
+      ]
+    ],
+    "1002": [
+      [
+        {
+          "due_at": null,
+          "html_url": "https://canvas.example.edu/courses/1002/assignments/5005",
+          "id": 5005,
+          "name": "Assignment 5005",
+          "points_possible": 15.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": "2025-09-16T17:35:16Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_quiz"
+          ]
+        },
+        {
+          "due_at": null,
+          "html_url": "https://canvas.example.edu/courses/1002/assignments/5006",
+          "id": 5006,
+          "name": "Assignment 5006",
+          "points_possible": 10.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": "2025-09-11T17:23:25Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_quiz"
+          ]
+        },
+        {
+          "due_at": null,
+          "html_url": "https://canvas.example.edu/courses/1002/assignments/5007",
+          "id": 5007,
+          "name": "Assignment 5007",
+          "points_possible": 10.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": "2025-09-16T17:21:39Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_quiz"
+          ]
+        },
+        {
+          "due_at": null,
+          "html_url": "https://canvas.example.edu/courses/1002/assignments/5008",
+          "id": 5008,
+          "name": "Assignment 5008",
+          "points_possible": 5.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": "2025-09-16T17:28:58Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_quiz"
+          ]
+        },
+        {
+          "due_at": null,
+          "html_url": "https://canvas.example.edu/courses/1002/assignments/5009",
+          "id": 5009,
+          "name": "Assignment 5009",
+          "points_possible": 5.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": "2025-09-16T17:25:51Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_quiz"
+          ]
+        },
+        {
+          "due_at": null,
+          "html_url": "https://canvas.example.edu/courses/1002/assignments/5010",
+          "id": 5010,
+          "name": "Assignment 5010",
+          "points_possible": 10.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": null,
+            "workflow_state": "unsubmitted"
+          },
+          "submission_types": [
+            "online_quiz"
+          ]
+        },
+        {
+          "due_at": null,
+          "html_url": "https://canvas.example.edu/courses/1002/assignments/5011",
+          "id": 5011,
+          "name": "Assignment 5011",
+          "points_possible": 5.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": "2025-09-11T17:28:26Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_quiz"
+          ]
+        }
+      ]
+    ],
+    "1003": [
+      [
+        {
+          "due_at": null,
+          "html_url": "https://canvas.example.edu/courses/1003/assignments/5012",
+          "id": 5012,
+          "name": "Assignment 5012",
+          "points_possible": 15.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": "2026-09-09T23:16:01Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_quiz"
+          ]
+        },
+        {
+          "due_at": null,
+          "html_url": "https://canvas.example.edu/courses/1003/assignments/5013",
+          "id": 5013,
+          "name": "Assignment 5013",
+          "points_possible": 10.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": "2026-09-09T23:07:49Z",
+            "workflow_state": "pending_review"
+          },
+          "submission_types": [
+            "online_quiz"
+          ]
+        },
+        {
+          "due_at": null,
+          "html_url": "https://canvas.example.edu/courses/1003/assignments/5014",
+          "id": 5014,
+          "name": "Assignment 5014",
+          "points_possible": 10.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": "2026-09-09T23:04:44Z",
+            "workflow_state": "pending_review"
+          },
+          "submission_types": [
+            "online_quiz"
+          ]
+        },
+        {
+          "due_at": null,
+          "html_url": "https://canvas.example.edu/courses/1003/assignments/5015",
+          "id": 5015,
+          "name": "Assignment 5015",
+          "points_possible": 10.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": "2026-09-09T23:12:57Z",
+            "workflow_state": "pending_review"
+          },
+          "submission_types": [
+            "online_quiz"
+          ]
+        },
+        {
+          "due_at": null,
+          "html_url": "https://canvas.example.edu/courses/1003/assignments/5016",
+          "id": 5016,
+          "name": "Assignment 5016",
+          "points_possible": 5.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": "2026-09-09T23:08:58Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_quiz"
+          ]
+        },
+        {
+          "due_at": null,
+          "html_url": "https://canvas.example.edu/courses/1003/assignments/5017",
+          "id": 5017,
+          "name": "Assignment 5017",
+          "points_possible": 10.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": "2026-09-09T22:51:36Z",
+            "workflow_state": "pending_review"
+          },
+          "submission_types": [
+            "online_quiz"
+          ]
+        },
+        {
+          "due_at": null,
+          "html_url": "https://canvas.example.edu/courses/1003/assignments/5018",
+          "id": 5018,
+          "name": "Assignment 5018",
+          "points_possible": 5.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": "2026-09-09T22:54:56Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_quiz"
+          ]
+        }
+      ]
+    ],
+    "1004": [
+      [
+        {
+          "due_at": "2026-09-08T04:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1004/assignments/5019",
+          "id": 5019,
+          "name": "Assignment 5019",
+          "points_possible": 20.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": "2026-09-02T22:53:09Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_upload"
+          ]
+        },
+        {
+          "due_at": "2026-09-15T04:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1004/assignments/5020",
+          "id": 5020,
+          "name": "Assignment 5020",
+          "points_possible": 20.0,
+          "submission": {
+            "excused": false,
+            "late": true,
+            "missing": false,
+            "submitted_at": "2026-09-16T02:31:27Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_upload"
+          ]
+        },
+        {
+          "due_at": "2026-09-22T04:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1004/assignments/5021",
+          "id": 5021,
+          "name": "Assignment 5021",
+          "points_possible": 20.0,
+          "submission": {
+            "excused": false,
+            "late": true,
+            "missing": false,
+            "submitted_at": "2026-09-29T21:27:29Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_upload"
+          ]
+        },
+        {
+          "due_at": "2026-09-29T04:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1004/assignments/5022",
+          "id": 5022,
+          "name": "Assignment 5022",
+          "points_possible": 20.0,
+          "submission": {
+            "excused": false,
+            "late": true,
+            "missing": false,
+            "submitted_at": "2026-09-29T21:29:22Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_upload"
+          ]
+        },
+        {
+          "due_at": "2026-10-06T04:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1004/assignments/5023",
+          "id": 5023,
+          "name": "Assignment 5023",
+          "points_possible": 20.0,
+          "submission": {
+            "excused": false,
+            "late": true,
+            "missing": false,
+            "submitted_at": "2026-11-03T18:23:11Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_upload"
+          ]
+        },
+        {
+          "due_at": "2026-10-13T04:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1004/assignments/5024",
+          "id": 5024,
+          "name": "Assignment 5024",
+          "points_possible": 20.0,
+          "submission": {
+            "excused": false,
+            "late": true,
+            "missing": false,
+            "submitted_at": "2026-11-03T18:22:52Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_upload"
+          ]
+        },
+        {
+          "due_at": "2026-11-10T05:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1004/assignments/5025",
+          "id": 5025,
+          "name": "Assignment 5025",
+          "points_possible": 20.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": "2026-11-03T18:22:36Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_upload"
+          ]
+        },
+        {
+          "due_at": "2026-11-17T05:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1004/assignments/5026",
+          "id": 5026,
+          "name": "Assignment 5026",
+          "points_possible": 20.0,
+          "submission": {
+            "excused": false,
+            "late": true,
+            "missing": false,
+            "submitted_at": "2026-11-17T18:35:32Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_upload"
+          ]
+        },
+        {
+          "due_at": "2026-11-24T05:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1004/assignments/5027",
+          "id": 5027,
+          "name": "Assignment 5027",
+          "points_possible": 20.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": true,
+            "submitted_at": null,
+            "workflow_state": "unsubmitted"
+          },
+          "submission_types": [
+            "online_upload"
+          ]
+        },
+        {
+          "due_at": "2026-12-01T05:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1004/assignments/5028",
+          "id": 5028,
+          "name": "Assignment 5028",
+          "points_possible": 20.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": null,
+            "workflow_state": "unsubmitted"
+          },
+          "submission_types": [
+            "online_upload"
+          ]
+        },
+        {
+          "due_at": null,
+          "html_url": "https://canvas.example.edu/courses/1004/assignments/5029",
+          "id": 5029,
+          "name": "Assignment 5029",
+          "points_possible": 10.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": null,
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "on_paper"
+          ]
+        },
+        {
+          "due_at": null,
+          "html_url": "https://canvas.example.edu/courses/1004/assignments/5030",
+          "id": 5030,
+          "name": "Assignment 5030",
+          "points_possible": 10.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": null,
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "on_paper"
+          ]
+        },
+        {
+          "due_at": null,
+          "html_url": "https://canvas.example.edu/courses/1004/assignments/5031",
+          "id": 5031,
+          "name": "Assignment 5031",
+          "points_possible": 10.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": null,
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "on_paper"
+          ]
+        },
+        {
+          "due_at": null,
+          "html_url": "https://canvas.example.edu/courses/1004/assignments/5032",
+          "id": 5032,
+          "name": "Assignment 5032",
+          "points_possible": 10.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": null,
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "on_paper"
+          ]
+        },
+        {
+          "due_at": null,
+          "html_url": "https://canvas.example.edu/courses/1004/assignments/5033",
+          "id": 5033,
+          "name": "Assignment 5033",
+          "points_possible": 10.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": null,
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "on_paper"
+          ]
+        },
+        {
+          "due_at": null,
+          "html_url": "https://canvas.example.edu/courses/1004/assignments/5034",
+          "id": 5034,
+          "name": "Assignment 5034",
+          "points_possible": 100.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": null,
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "on_paper"
+          ]
+        }
+      ]
+    ],
+    "1005": [
+      [
+        {
+          "due_at": "2026-09-04T04:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1005/assignments/5035",
+          "id": 5035,
+          "name": "Assignment 5035",
+          "points_possible": 40.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": "2026-09-03T15:12:21Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_quiz"
+          ]
+        },
+        {
+          "due_at": "2026-09-25T04:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1005/assignments/5036",
+          "id": 5036,
+          "name": "Assignment 5036",
+          "points_possible": 34.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": true,
+            "submitted_at": null,
+            "workflow_state": "unsubmitted"
+          },
+          "submission_types": [
+            "online_quiz"
+          ]
+        },
+        {
+          "due_at": "2026-10-01T04:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1005/assignments/5037",
+          "id": 5037,
+          "name": "Assignment 5037",
+          "points_possible": 33.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": "2026-10-01T01:39:59Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_quiz"
+          ]
+        },
+        {
+          "due_at": "2026-09-11T04:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1005/assignments/5038",
+          "id": 5038,
+          "name": "Assignment 5038",
+          "points_possible": 34.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": "2026-09-10T17:11:51Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_quiz"
+          ]
+        },
+        {
+          "due_at": "2026-10-09T04:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1005/assignments/5039",
+          "id": 5039,
+          "name": "Assignment 5039",
+          "points_possible": 33.0,
+          "submission": {
+            "excused": false,
+            "late": true,
+            "missing": false,
+            "submitted_at": "2026-10-09T12:49:44Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_quiz"
+          ]
+        },
+        {
+          "due_at": "2026-09-19T04:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1005/assignments/5040",
+          "id": 5040,
+          "name": "Assignment 5040",
+          "points_possible": 43.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": "2026-09-19T02:18:36Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_quiz"
+          ]
+        },
+        {
+          "due_at": "2026-10-16T04:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1005/assignments/5041",
+          "id": 5041,
+          "name": "Assignment 5041",
+          "points_possible": 32.0,
+          "submission": {
+            "excused": false,
+            "late": true,
+            "missing": false,
+            "submitted_at": "2026-10-27T15:25:28Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_quiz"
+          ]
+        },
+        {
+          "due_at": "2026-11-04T05:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1005/assignments/5042",
+          "id": 5042,
+          "name": "Assignment 5042",
+          "points_possible": 35.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": "2026-11-03T18:28:03Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_quiz"
+          ]
+        },
+        {
+          "due_at": "2026-11-13T05:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1005/assignments/5043",
+          "id": 5043,
+          "name": "Assignment 5043",
+          "points_possible": 31.0,
+          "submission": {
+            "excused": false,
+            "late": true,
+            "missing": false,
+            "submitted_at": "2026-11-14T05:25:20Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_quiz"
+          ]
+        },
+        {
+          "due_at": "2026-11-22T05:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1005/assignments/5044",
+          "id": 5044,
+          "name": "Assignment 5044",
+          "points_possible": 37.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": "2026-11-17T18:40:26Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_quiz"
+          ]
+        },
+        {
+          "due_at": "2026-11-27T05:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1005/assignments/5045",
+          "id": 5045,
+          "name": "Assignment 5045",
+          "points_possible": 33.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": "2026-11-27T03:50:38Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_quiz"
+          ]
+        },
+        {
+          "due_at": "2026-12-18T05:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1005/assignments/5046",
+          "id": 5046,
+          "name": "Assignment 5046",
+          "points_possible": 100.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": null,
+            "workflow_state": "unsubmitted"
+          },
+          "submission_types": [
+            "online_upload"
+          ]
+        },
+        {
+          "due_at": "2026-10-13T22:30:00Z",
+          "html_url": "https://canvas.example.edu/courses/1005/assignments/5047",
+          "id": 5047,
+          "name": "Assignment 5047",
+          "points_possible": 100.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": "2026-10-13T21:35:55Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_upload"
+          ]
+        },
+        {
+          "due_at": "2026-12-15T21:00:00Z",
+          "html_url": "https://canvas.example.edu/courses/1005/assignments/5048",
+          "id": 5048,
+          "name": "Assignment 5048",
+          "points_possible": 100.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": null,
+            "workflow_state": "unsubmitted"
+          },
+          "submission_types": [
+            "online_upload"
+          ]
+        },
+        {
+          "due_at": "2026-12-08T22:00:00Z",
+          "html_url": "https://canvas.example.edu/courses/1005/assignments/5049",
+          "id": 5049,
+          "name": "Assignment 5049",
+          "points_possible": 40.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": null,
+            "workflow_state": "unsubmitted"
+          },
+          "submission_types": [
+            "media_recording",
+            "online_upload"
+          ]
+        },
+        {
+          "due_at": "2026-10-15T04:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1005/assignments/5050",
+          "id": 5050,
+          "name": "Assignment 5050",
+          "points_possible": 0.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": null,
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_upload"
+          ]
+        },
+        {
+          "due_at": null,
+          "html_url": "https://canvas.example.edu/courses/1005/assignments/5051",
+          "id": 5051,
+          "name": "Assignment 5051",
+          "points_possible": 100.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": "2026-08-21T14:36:23Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "external_tool"
+          ]
+        },
+        {
+          "due_at": "2026-08-28T04:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1005/assignments/5052",
+          "id": 5052,
+          "name": "Assignment 5052",
+          "points_possible": 10.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": "2026-08-27T21:52:50Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_upload"
+          ]
+        },
+        {
+          "due_at": "2026-09-04T04:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1005/assignments/5053",
+          "id": 5053,
+          "name": "Assignment 5053",
+          "points_possible": 40.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": "2026-09-03T22:03:03Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_upload"
+          ]
+        },
+        {
+          "due_at": "2026-09-11T04:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1005/assignments/5054",
+          "id": 5054,
+          "name": "Assignment 5054",
+          "points_possible": 30.0,
+          "submission": {
+            "excused": false,
+            "late": true,
+            "missing": false,
+            "submitted_at": "2026-09-11T21:08:38Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_upload"
+          ]
+        },
+        {
+          "due_at": "2026-09-18T04:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1005/assignments/5055",
+          "id": 5055,
+          "name": "Assignment 5055",
+          "points_possible": 30.0,
+          "submission": {
+            "excused": false,
+            "late": true,
+            "missing": false,
+            "submitted_at": "2026-09-21T00:31:11Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_upload"
+          ]
+        },
+        {
+          "due_at": "2026-10-28T04:30:00Z",
+          "html_url": "https://canvas.example.edu/courses/1005/assignments/5056",
+          "id": 5056,
+          "name": "Assignment 5056",
+          "points_possible": 100.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": null,
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_upload"
+          ]
+        },
+        {
+          "due_at": "2026-09-25T04:59:37Z",
+          "html_url": "https://canvas.example.edu/courses/1005/assignments/5057",
+          "id": 5057,
+          "name": "Assignment 5057",
+          "points_possible": 50.0,
+          "submission": {
+            "excused": false,
+            "late": true,
+            "missing": false,
+            "submitted_at": "2026-09-30T03:49:40Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_upload"
+          ]
+        },
+        {
+          "due_at": "2026-10-09T04:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1005/assignments/5058",
+          "id": 5058,
+          "name": "Assignment 5058",
+          "points_possible": 50.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": "2026-10-08T21:38:08Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_upload"
+          ]
+        },
+        {
+          "due_at": "2026-10-17T04:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1005/assignments/5059",
+          "id": 5059,
+          "name": "Assignment 5059",
+          "points_possible": 30.0,
+          "submission": {
+            "excused": false,
+            "late": true,
+            "missing": false,
+            "submitted_at": "2026-10-27T16:30:47Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_upload"
+          ]
+        },
+        {
+          "due_at": "2026-10-30T04:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1005/assignments/5060",
+          "id": 5060,
+          "name": "Assignment 5060",
+          "points_possible": 50.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": "2026-10-29T21:34:18Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_upload"
+          ]
+        },
+        {
+          "due_at": "2026-11-06T05:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1005/assignments/5061",
+          "id": 5061,
+          "name": "Assignment 5061",
+          "points_possible": 50.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": "2026-11-05T22:43:12Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_upload"
+          ]
+        },
+        {
+          "due_at": "2026-11-20T05:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1005/assignments/5062",
+          "id": 5062,
+          "name": "Assignment 5062",
+          "points_possible": 100.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": true,
+            "submitted_at": null,
+            "workflow_state": "unsubmitted"
+          },
+          "submission_types": [
+            "online_upload"
+          ]
+        },
+        {
+          "due_at": "2026-11-25T05:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1005/assignments/5063",
+          "id": 5063,
+          "name": "Assignment 5063",
+          "points_possible": 100.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": "2026-11-24T22:55:47Z",
+            "workflow_state": "submitted"
+          },
+          "submission_types": [
+            "online_upload"
+          ]
+        },
+        {
+          "due_at": "2026-11-13T05:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1005/assignments/5064",
+          "id": 5064,
+          "name": "Assignment 5064",
+          "points_possible": 100.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": null,
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_upload"
+          ]
+        }
+      ]
+    ],
+    "1006": [
+      [
+        {
+          "due_at": null,
+          "html_url": "https://canvas.example.edu/courses/1006/assignments/5065",
+          "id": 5065,
+          "name": "Assignment 5065",
+          "points_possible": 100.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": "2026-10-28T22:39:22Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "external_tool"
+          ]
+        },
+        {
+          "due_at": "2026-11-04T05:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1006/assignments/5066",
+          "id": 5066,
+          "name": "Assignment 5066",
+          "points_possible": 35.0,
+          "submission": {
+            "excused": false,
+            "late": true,
+            "missing": false,
+            "submitted_at": "2026-11-05T00:11:07Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_text_entry",
+            "online_upload"
+          ]
+        },
+        {
+          "due_at": "2026-11-11T05:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1006/assignments/5067",
+          "id": 5067,
+          "name": "Assignment 5067",
+          "points_possible": 35.0,
+          "submission": {
+            "excused": false,
+            "late": true,
+            "missing": false,
+            "submitted_at": "2026-11-17T17:52:40Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_upload"
+          ]
+        },
+        {
+          "due_at": "2026-11-18T05:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1006/assignments/5068",
+          "id": 5068,
+          "name": "Assignment 5068",
+          "points_possible": 60.0,
+          "submission": {
+            "excused": false,
+            "late": true,
+            "missing": false,
+            "submitted_at": "2026-11-21T01:02:44Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_upload"
+          ]
+        },
+        {
+          "due_at": "2026-12-02T05:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1006/assignments/5069",
+          "id": 5069,
+          "name": "Assignment 5069",
+          "points_possible": 75.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": null,
+            "workflow_state": "unsubmitted"
+          },
+          "submission_types": [
+            "online_text_entry",
+            "online_upload"
+          ]
+        },
+        {
+          "due_at": "2026-12-02T05:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1006/assignments/5070",
+          "id": 5070,
+          "name": "Assignment 5070",
+          "points_possible": 80.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": null,
+            "workflow_state": "unsubmitted"
+          },
+          "submission_types": [
+            "online_text_entry",
+            "online_upload"
+          ]
+        },
+        {
+          "due_at": "2026-11-04T05:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1006/assignments/5071",
+          "id": 5071,
+          "name": "Assignment 5071",
+          "points_possible": 80.0,
+          "submission": {
+            "excused": false,
+            "late": true,
+            "missing": false,
+            "submitted_at": "2026-11-17T17:52:25Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_text_entry",
+            "online_upload"
+          ]
+        },
+        {
+          "due_at": "2026-11-19T04:00:00Z",
+          "html_url": "https://canvas.example.edu/courses/1006/assignments/5072",
+          "id": 5072,
+          "name": "Assignment 5072",
+          "points_possible": 100.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": "2026-11-19T02:01:45Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_quiz"
+          ]
+        },
+        {
+          "due_at": "2026-11-10T23:30:00Z",
+          "html_url": "https://canvas.example.edu/courses/1006/assignments/5073",
+          "id": 5073,
+          "name": "Assignment 5073",
+          "points_possible": 50.0,
+          "submission": {
+            "excused": false,
+            "late": true,
+            "missing": false,
+            "submitted_at": "2026-11-19T16:36:35Z",
+            "workflow_state": "submitted"
+          },
+          "submission_types": [
+            "online_upload"
+          ]
+        },
+        {
+          "due_at": "2026-11-18T05:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1006/assignments/5074",
+          "id": 5074,
+          "name": "Assignment 5074",
+          "points_possible": 50.0,
+          "submission": {
+            "excused": false,
+            "late": true,
+            "missing": false,
+            "submitted_at": "2026-11-21T05:49:32Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_upload"
+          ]
+        },
+        {
+          "due_at": "2026-12-02T05:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1006/assignments/5075",
+          "id": 5075,
+          "name": "Assignment 5075",
+          "points_possible": 65.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": null,
+            "workflow_state": "unsubmitted"
+          },
+          "submission_types": [
+            "online_text_entry",
+            "online_upload"
+          ]
+        },
+        {
+          "due_at": "2026-12-02T05:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1006/assignments/5076",
+          "id": 5076,
+          "name": "Assignment 5076",
+          "points_possible": 65.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": null,
+            "workflow_state": "unsubmitted"
+          },
+          "submission_types": [
+            "online_text_entry",
+            "online_upload"
+          ]
+        }
+      ]
+    ],
+    "1007": [
+      [
+        {
+          "due_at": "2024-09-16T04:59:00Z",
+          "html_url": "https://canvas.example.edu/courses/1007/assignments/5077",
+          "id": 5077,
+          "name": "Assignment 5077",
+          "points_possible": 3.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": "2024-08-26T21:09:57Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_quiz"
+          ]
+        },
+        {
+          "due_at": "2024-09-16T04:59:00Z",
+          "html_url": "https://canvas.example.edu/courses/1007/assignments/5078",
+          "id": 5078,
+          "name": "Assignment 5078",
+          "points_possible": 3.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": "2024-08-26T21:03:25Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_quiz"
+          ]
+        },
+        {
+          "due_at": "2024-09-16T04:59:00Z",
+          "html_url": "https://canvas.example.edu/courses/1007/assignments/5079",
+          "id": 5079,
+          "name": "Assignment 5079",
+          "points_possible": 3.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": "2024-08-26T21:07:51Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_quiz"
+          ]
+        },
+        {
+          "due_at": "2024-09-16T04:59:00Z",
+          "html_url": "https://canvas.example.edu/courses/1007/assignments/5080",
+          "id": 5080,
+          "name": "Assignment 5080",
+          "points_possible": 3.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": "2024-08-26T21:05:12Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_quiz"
+          ]
+        },
+        {
+          "due_at": "2024-09-16T04:59:00Z",
+          "html_url": "https://canvas.example.edu/courses/1007/assignments/5081",
+          "id": 5081,
+          "name": "Assignment 5081",
+          "points_possible": 3.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": "2024-08-26T21:08:23Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_quiz"
+          ]
+        },
+        {
+          "due_at": "2024-09-16T04:59:00Z",
+          "html_url": "https://canvas.example.edu/courses/1007/assignments/5082",
+          "id": 5082,
+          "name": "Assignment 5082",
+          "points_possible": 3.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": "2024-08-26T21:09:01Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_quiz"
+          ]
+        }
+      ]
+    ],
+    "1008": [
+      [
+        {
+          "due_at": null,
+          "html_url": "https://canvas.example.edu/courses/1008/assignments/5083",
+          "id": 5083,
+          "name": "Assignment 5083",
+          "points_possible": 16.0,
+          "submission": {
+            "excused": false,
+            "late": true,
+            "missing": false,
+            "submitted_at": "2026-11-10T16:54:11Z",
+            "workflow_state": "pending_review"
+          },
+          "submission_types": [
+            "discussion_topic"
+          ]
+        },
+        {
+          "due_at": "2026-11-16T05:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1008/assignments/5084",
+          "id": 5084,
+          "name": "Assignment 5084",
+          "points_possible": 10.0,
+          "submission": {
+            "excused": false,
+            "late": true,
+            "missing": false,
+            "submitted_at": "2026-11-17T01:43:35Z",
+            "workflow_state": "submitted"
+          },
+          "submission_types": [
+            "discussion_topic"
+          ]
+        },
+        {
+          "due_at": "2026-11-02T05:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1008/assignments/5085",
+          "id": 5085,
+          "name": "Assignment 5085",
+          "points_possible": 10.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": "2026-11-02T04:14:50Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_text_entry"
+          ]
+        },
+        {
+          "due_at": "2026-11-06T05:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1008/assignments/5086",
+          "id": 5086,
+          "name": "Assignment 5086",
+          "points_possible": 10.0,
+          "submission": {
+            "excused": false,
+            "late": true,
+            "missing": false,
+            "submitted_at": "2026-11-10T16:50:01Z",
+            "workflow_state": "submitted"
+          },
+          "submission_types": [
+            "online_text_entry"
+          ]
+        },
+        {
+          "due_at": "2026-11-29T05:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1008/assignments/5087",
+          "id": 5087,
+          "name": "Assignment 5087",
+          "points_possible": 10.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": null,
+            "workflow_state": "unsubmitted"
+          },
+          "submission_types": [
+            "online_text_entry"
+          ]
+        },
+        {
+          "due_at": "2026-11-13T05:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1008/assignments/5088",
+          "id": 5088,
+          "name": "Assignment 5088",
+          "points_possible": 10.0,
+          "submission": {
+            "excused": false,
+            "late": true,
+            "missing": false,
+            "submitted_at": "2026-11-17T01:40:46Z",
+            "workflow_state": "submitted"
+          },
+          "submission_types": [
+            "online_text_entry"
+          ]
+        },
+        {
+          "due_at": "2026-11-19T17:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1008/assignments/5089",
+          "id": 5089,
+          "name": "Assignment 5089",
+          "points_possible": 10.0,
+          "submission": {
+            "excused": false,
+            "late": true,
+            "missing": false,
+            "submitted_at": "2026-11-23T17:27:36Z",
+            "workflow_state": "submitted"
+          },
+          "submission_types": [
+            "online_text_entry"
+          ]
+        },
+        {
+          "due_at": "2026-12-06T05:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1008/assignments/5090",
+          "id": 5090,
+          "name": "Assignment 5090",
+          "points_possible": 10.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": null,
+            "workflow_state": "unsubmitted"
+          },
+          "submission_types": [
+            "online_text_entry",
+            "online_upload"
+          ]
+        },
+        {
+          "due_at": null,
+          "html_url": "https://canvas.example.edu/courses/1008/assignments/5091",
+          "id": 5091,
+          "name": "Assignment 5091",
+          "points_possible": 20.0,
+          "submission": {
+            "excused": false,
+            "late": true,
+            "missing": false,
+            "submitted_at": "2026-11-23T17:32:57Z",
+            "workflow_state": "pending_review"
+          },
+          "submission_types": [
+            "discussion_topic"
+          ]
+        },
+        {
+          "due_at": "2026-10-28T04:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1008/assignments/5092",
+          "id": 5092,
+          "name": "Assignment 5092",
+          "points_possible": 8.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": "2026-10-27T16:42:04Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "discussion_topic"
+          ]
+        },
+        {
+          "due_at": null,
+          "html_url": "https://canvas.example.edu/courses/1008/assignments/5093",
+          "id": 5093,
+          "name": "Assignment 5093",
+          "points_possible": 4.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": "2026-10-27T17:08:16Z",
+            "workflow_state": "pending_review"
+          },
+          "submission_types": [
+            "discussion_topic"
+          ]
+        },
+        {
+          "due_at": null,
+          "html_url": "https://canvas.example.edu/courses/1008/assignments/5094",
+          "id": 5094,
+          "name": "Assignment 5094",
+          "points_possible": 4.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": "2026-10-27T17:53:27Z",
+            "workflow_state": "pending_review"
+          },
+          "submission_types": [
+            "discussion_topic"
+          ]
+        },
+        {
+          "due_at": null,
+          "html_url": "https://canvas.example.edu/courses/1008/assignments/5095",
+          "id": 5095,
+          "name": "Assignment 5095",
+          "points_possible": 4.0,
+          "submission": {
+            "excused": false,
+            "late": true,
+            "missing": false,
+            "submitted_at": "2026-11-02T04:08:12Z",
+            "workflow_state": "pending_review"
+          },
+          "submission_types": [
+            "discussion_topic"
+          ]
+        },
+        {
+          "due_at": null,
+          "html_url": "https://canvas.example.edu/courses/1008/assignments/5096",
+          "id": 5096,
+          "name": "Assignment 5096",
+          "points_possible": 16.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": null,
+            "workflow_state": "unsubmitted"
+          },
+          "submission_types": [
+            "discussion_topic"
+          ]
+        }
+      ]
+    ],
+    "1009": [
+      [
+        {
+          "due_at": "2026-09-05T04:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1009/assignments/5097",
+          "id": 5097,
+          "name": "Assignment 5097",
+          "points_possible": 14.0,
+          "submission": {
+            "excused": true,
+            "late": false,
+            "missing": false,
+            "submitted_at": null,
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "external_tool"
+          ]
+        },
+        {
+          "due_at": "2026-10-31T04:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1009/assignments/5098",
+          "id": 5098,
+          "name": "Assignment 5098",
+          "points_possible": 12.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": "2026-10-30T20:53:19Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "external_tool"
+          ]
+        },
+        {
+          "due_at": "2026-09-01T04:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1009/assignments/5099",
+          "id": 5099,
+          "name": "Assignment 5099",
+          "points_possible": 14.0,
+          "submission": {
+            "excused": false,
+            "late": true,
+            "missing": false,
+            "submitted_at": "2026-11-02T03:44:41Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "external_tool"
+          ]
+        }
+      ]
+    ],
+    "1010": [
+      [
+        {
+          "due_at": "2026-10-26T04:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1010/assignments/5100",
+          "id": 5100,
+          "name": "Assignment 5100",
+          "points_possible": 18.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": "2026-10-24T17:57:43Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_quiz"
+          ]
+        },
+        {
+          "due_at": "2026-10-26T04:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1010/assignments/5101",
+          "id": 5101,
+          "name": "Assignment 5101",
+          "points_possible": 16.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": "2026-10-25T18:40:51Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_quiz"
+          ]
+        },
+        {
+          "due_at": "2026-10-26T04:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1010/assignments/5102",
+          "id": 5102,
+          "name": "Assignment 5102",
+          "points_possible": 27.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": "2026-10-25T18:50:25Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_quiz"
+          ]
+        },
+        {
+          "due_at": "2026-10-26T04:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1010/assignments/5103",
+          "id": 5103,
+          "name": "Assignment 5103",
+          "points_possible": 13.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": "2026-10-25T18:57:25Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_quiz"
+          ]
+        },
+        {
+          "due_at": "2026-10-26T04:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1010/assignments/5104",
+          "id": 5104,
+          "name": "Assignment 5104",
+          "points_possible": 5.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": "2026-10-25T19:44:28Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_quiz"
+          ]
+        },
+        {
+          "due_at": "2026-10-26T04:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1010/assignments/5105",
+          "id": 5105,
+          "name": "Assignment 5105",
+          "points_possible": 7.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": "2026-10-25T19:47:59Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_quiz"
+          ]
+        },
+        {
+          "due_at": "2026-10-26T04:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1010/assignments/5106",
+          "id": 5106,
+          "name": "Assignment 5106",
+          "points_possible": 16.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": "2026-10-25T19:51:18Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_quiz"
+          ]
+        },
+        {
+          "due_at": "2026-10-26T04:59:59Z",
+          "html_url": "https://canvas.example.edu/courses/1010/assignments/5107",
+          "id": 5107,
+          "name": "Assignment 5107",
+          "points_possible": 1.0,
+          "submission": {
+            "excused": false,
+            "late": false,
+            "missing": false,
+            "submitted_at": "2026-10-25T19:52:24Z",
+            "workflow_state": "graded"
+          },
+          "submission_types": [
+            "online_quiz"
+          ]
+        }
+      ]
+    ]
+  },
+  "courses": [
+    [
+      {
+        "course_code": "FAKE 1001",
+        "id": 1001,
+        "name": "Course 1001"
+      },
+      {
+        "course_code": "FAKE 1002",
+        "id": 1002,
+        "name": "Course 1002"
+      },
+      {
+        "course_code": "FAKE 1003",
+        "id": 1003,
+        "name": "Course 1003"
+      },
+      {
+        "course_code": "FAKE 1004",
+        "id": 1004,
+        "name": "Course 1004"
+      },
+      {
+        "course_code": "FAKE 1005",
+        "id": 1005,
+        "name": "Course 1005"
+      },
+      {
+        "course_code": "FAKE 1006",
+        "id": 1006,
+        "name": "Course 1006"
+      },
+      {
+        "course_code": "FAKE 1007",
+        "id": 1007,
+        "name": "Course 1007"
+      },
+      {
+        "course_code": "FAKE 1008",
+        "id": 1008,
+        "name": "Course 1008"
+      },
+      {
+        "course_code": "FAKE 1009",
+        "id": 1009,
+        "name": "Course 1009"
+      },
+      {
+        "course_code": "FAKE 1010",
+        "id": 1010,
+        "name": "Course 1010"
+      }
+    ]
+  ]
+}

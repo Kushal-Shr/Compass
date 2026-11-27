@@ -17,6 +17,7 @@ class Task(BaseModel):
     done_minutes: int = 0
     submitted: bool = False
     url: str = ""
+    missing: bool = False  # was stored but not in the last fetch (set by the store, not sources)
 
     @property
     def remaining_minutes(self) -> int:
@@ -30,6 +31,8 @@ class Event(BaseModel):
     end: datetime
     kind: Literal["fixed", "protected"] = "fixed"
     created_by_agent: bool = False
+    all_day: bool = False  # start/end are local midnights
+    busy: bool = True      # the source's free/busy flag. Free events never block time
 
 
 BlockKind = Literal["fixed", "protected", "study", "break"]

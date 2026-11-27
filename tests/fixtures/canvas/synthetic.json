@@ -1,0 +1,49 @@
+{
+  "_note": "Hand-made, shaped like Canvas API responses. No real data. Courses and each course's assignments are lists of pages.",
+  "courses": [
+    [
+      {"id": 1001, "name": "Course 1001", "course_code": "FAKE 1001"},
+      {"id": 1002, "name": "Course 1002", "course_code": "FAKE 1002"}
+    ],
+    [
+      {"id": 1003, "name": "Course 1003", "course_code": "FAKE 1003", "access_restricted_by_date": true},
+      {"id": 1004, "name": "Course 1004", "course_code": "FAKE 1004"}
+    ]
+  ],
+  "assignments": {
+    "1001": [
+      [
+        {"id": 5001, "name": "Problem Set 9", "due_at": "2026-12-01T05:59:00Z", "points_possible": 20,
+         "submission_types": ["online_upload"], "html_url": "https://canvas.example.edu/courses/1001/assignments/5001",
+         "submission": {"workflow_state": "unsubmitted", "submitted_at": null, "excused": null, "missing": false, "late": false}},
+        {"id": 5002, "name": "Lab 4", "due_at": "2026-12-04T05:59:00Z", "points_possible": 30,
+         "submission_types": ["online_upload"], "html_url": "https://canvas.example.edu/courses/1001/assignments/5002",
+         "submission": {"workflow_state": "submitted", "submitted_at": "2026-11-28T20:00:00Z", "excused": null, "missing": false, "late": false}},
+        {"id": 5003, "name": "Optional Reading", "due_at": null, "points_possible": 0,
+         "submission_types": ["none"], "html_url": "https://canvas.example.edu/courses/1001/assignments/5003",
+         "submission": {"workflow_state": "unsubmitted", "submitted_at": null, "excused": null, "missing": false, "late": false}}
+      ],
+      [
+        {"id": 5004, "name": "Midterm Review", "due_at": "2026-12-10T18:00:00Z", "points_possible": 10,
+         "submission_types": ["online_quiz"], "html_url": "https://canvas.example.edu/courses/1001/assignments/5004",
+         "submission": {"workflow_state": "graded", "submitted_at": null, "excused": null, "missing": false, "late": false}},
+        {"id": 5005, "name": "Old Homework", "due_at": "2026-10-01T04:59:00Z", "points_possible": 10,
+         "submission_types": ["online_upload"], "html_url": "https://canvas.example.edu/courses/1001/assignments/5005",
+         "submission": {"workflow_state": "graded", "submitted_at": "2026-09-30T20:00:00Z", "excused": null, "missing": false, "late": false}}
+      ]
+    ],
+    "1002": [
+      [
+        {"id": 5006, "name": "Essay 2", "due_at": "2026-12-08T05:59:00Z", "points_possible": 100,
+         "submission_types": ["online_upload"], "html_url": "https://canvas.example.edu/courses/1002/assignments/5006",
+         "submission": {"workflow_state": "unsubmitted", "submitted_at": null, "excused": true, "missing": false, "late": false}},
+        {"id": 5007, "name": "Spring Quiz", "due_at": "2027-03-20T04:59:00Z", "points_possible": 15,
+         "submission_types": ["online_quiz"], "html_url": "https://canvas.example.edu/courses/1002/assignments/5007",
+         "submission": {"workflow_state": "unsubmitted", "submitted_at": null, "excused": null, "missing": false, "late": false}},
+        {"id": 5008, "name": "Discussion Post", "due_at": "2026-12-02T15:00:00Z", "points_possible": null,
+         "submission_types": ["discussion_topic"], "html_url": "https://canvas.example.edu/courses/1002/assignments/5008"}
+      ]
+    ],
+    "1004": 403
+  }
+}

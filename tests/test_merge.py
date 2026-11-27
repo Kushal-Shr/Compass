@@ -83,7 +83,7 @@ def test_submitted_past_due_and_outside_window_not_marked_missing():
 
 def test_manual_estimate_survives_merge():
     store = _merged()
-    store.set_estimate("demo:110", 600)
+    store.set_estimate("demo:110", 600, NOW)
     merge_tasks(store, "demo", demo_tasks(), LATER, WINDOW)
     assert next(t for t in store.get_tasks() if t.id == "demo:110").est_minutes == 600
 

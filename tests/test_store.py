@@ -45,7 +45,7 @@ def test_same_instant_in_another_offset_is_not_a_change():
 def test_manual_estimate_survives_refresh():
     s = Store(":memory:")
     s.upsert_task(make(), NOW)
-    s.set_estimate("canvas:1", 300)
+    s.set_estimate("canvas:1", 300, NOW)
     s.upsert_task(make(), NOW)
     assert s.get_tasks()[0].est_minutes == 300
 

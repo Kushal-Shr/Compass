@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import sqlite3
+import uuid
 from datetime import datetime, timezone
 
 from .models import Change, Event, Task
@@ -34,6 +35,19 @@ CREATE TABLE IF NOT EXISTS llm_calls (
 # Migration N (1-based) brings the database to `PRAGMA user_version` N. Append only.
 MIGRATIONS = [
     "ALTER TABLE tasks ADD COLUMN missing INTEGER DEFAULT 0;",  # 1 (step 1.3)
+    # 2 (step 1.4, D5): manual estimates become append-only user rows. Existing values from
+    # tasks.est_override (no longer read) are copied over with an epoch timestamp, so any
+    # newer override wins.
+    """
+    CREATE TABLE estimate_overrides (
+      id TEXT PRIMARY KEY, task_id TEXT NOT NULL, minutes INTEGER NOT NULL,
+      created_at TEXT NOT NULL
+    );
+    CREATE INDEX estimate_overrides_task ON estimate_overrides (task_id);
+    INSERT INTO estimate_overrides (id, task_id, minutes, created_at)
+      SELECT lower(hex(randomblob(16))), id, est_override, '1970-01-01T00:00:00+00:00'
+      FROM tasks WHERE est_override IS NOT NULL;
+    """,
 ]
 
 # Task fields compared for change detection.
@@ -120,8 +134,25 @@ class Store:
                             [(c.entity_id, c.field, c.old, c.new, _iso(c.detected_at))
                              for c in changes])
 
-    def set_estimate(self, task_id: str, minutes: int) -> None:
-        self.db.execute("UPDATE tasks SET est_override=? WHERE id=?", (minutes, task_id))
+    def set_estimate(self, task_id: str, minutes: int, now: datetime) -> None:
+        """Record a manual estimate (user data, D5): an append-only row, and the latest wins."""
+        if minutes < 0:
+            raise ValueError(f"estimate must not be negative: {minutes}")
+        if self.db.execute("SELECT 1 FROM tasks WHERE id=?", (task_id,)).fetchone() is None:
+            raise KeyError(f"unknown task: {task_id}")
+        self.db.execute("INSERT INTO estimate_overrides VALUES (?,?,?,?)",
+                        (uuid.uuid4().hex, task_id, minutes, _iso(now)))
+        self.db.commit()
+
+    def get_overrides(self) -> dict[str, int]:
+        """Latest manual estimate per task. Ties on time break by id, so every copy agrees."""
+        rows = self.db.execute(
+            "SELECT task_id, minutes FROM estimate_overrides ORDER BY created_at, id")
+        return {r["task_id"]: r["minutes"] for r in rows}
+
+    def set_auto_estimate(self, task_id: str, minutes: int) -> None:
+        """Set the automatic estimate. Manual overrides are separate and untouched."""
+        self.db.execute("UPDATE tasks SET est_minutes=? WHERE id=?", (minutes, task_id))
         self.db.commit()
 
     def get_tasks(self, source: str | None = None) -> list[Task]:
@@ -129,9 +160,10 @@ class Store:
             rows = self.db.execute("SELECT * FROM tasks")
         else:
             rows = self.db.execute("SELECT * FROM tasks WHERE source=?", (source,))
+        overrides = self.get_overrides()
         out = []
         for r in rows:
-            est = r["est_override"] if r["est_override"] is not None else r["est_minutes"]
+            est = overrides.get(r["id"], r["est_minutes"])
             out.append(Task(
                 id=r["id"], title=r["title"], source=r["source"], course=r["course"],
                 due=_dt(r["due"]), points=r["points"], est_minutes=est,

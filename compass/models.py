@@ -17,6 +17,7 @@ class Task(BaseModel):
     done_minutes: int = 0
     submitted: bool = False
     url: str = ""
+    missing: bool = False  # was stored but not in the last fetch (set by the store, not sources)
 
     @property
     def remaining_minutes(self) -> int:
